@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+          <script>
+        window.dataLayer = window.dataLayer || [];
+      </script>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P2KRN7W');</script>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="author" content="Wazuh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="96ydegnv9pk8gex3kfgttw7489tktx" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="eX5EQNhuKT9RqAeBVSQPzhjt_oo-3kENvOcJyK-DTz4" />
+    <link rel="icon" href="https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/favicon.ico?v=1744815409521"/>
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to our feed" href="https://wazuh.com/feed/">
+
+    <meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v25.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found | Wazuh | Open Source XDR. Open Source SIEM</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found | Wazuh | Open Source XDR. Open Source SIEM" />
+	<meta property="og:site_name" content="Wazuh" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://wazuh.com/#website","url":"https://wazuh.com/","name":"Wazuh","description":"Open Source XDR. Open Source SIEM","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://wazuh.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='bootstrap.min-css' href='https://wazuh.com/wp-content/themes/wazuh-v3/assets/css/bootstrap.min.css?ver=1748338947' type='text/css' media='all' />
+<style id='bootstrap.min-inline-css' type='text/css'>
+@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/manrope/v4/xn7gYHE41ni1AdIRggmxSuXd.woff2) format("woff2");unicode-range:U+0100-024f,U+0259,U+1e??,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/manrope/v4/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/manrope/v14/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFN_M-bnBeA.woff2) format("woff2");unicode-range:U+0100-02af,U+0304,U+0308,U+0329,U+1e00-1e9f,U+1ef2-1eff,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/manrope/v14/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFN_C-bk.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+0304,U+0308,U+0329,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/manrope/v14/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE9_M-bnBeA.woff2) format("woff2");unicode-range:U+0100-02af,U+0304,U+0308,U+0329,U+1e00-1e9f,U+1ef2-1eff,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/manrope/v14/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE9_C-bk.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+0304,U+0308,U+0329,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:800;src:url(https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E9_M-bnBeA.woff2) format("woff2");unicode-range:U+0100-02af,U+0304,U+0308,U+0329,U+1e00-1e9f,U+1ef2-1eff,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff}@font-face{font-display:swap;font-family:Manrope;font-style:normal;font-weight:800;src:url(https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E9_C-bk.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+0304,U+0308,U+0329,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}@font-face{font-display:swap;font-family:Fira Mono;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/firamono/v14/N0bX2SlFPv1weGeLZDtgKP7SodY.woff2) format("woff2");unicode-range:U+0100-02af,U+0304,U+0308,U+0329,U+1e00-1e9f,U+1ef2-1eff,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff}@font-face{font-display:swap;font-family:Fira Mono;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/firamono/v14/N0bX2SlFPv1weGeLZDtgJv7S.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+0304,U+0308,U+0329,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}
+</style>
+<link rel='stylesheet' id='style-404-css' href='https://wazuh.com/wp-content/themes/wazuh-v3/assets/css/404.min.css?ver=1748338951' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://wazuh.com/wp-json/" />
+  </head>
+  
+  <body   data-page-type="blog-post">
+    <a href="#" id="skip">Skip to content</a>
+
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2KRN7W"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+    <div class="page-icons">
+      <svg  width="19" height="17" class="social-icon" id="ico-discord" xmlns="http://www.w3.org/2000/svg"  xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 130.1 106.4"><path d="M107.7,8.1C99.3,4.2,90.5,1.5,81.5,0c-1.2,2.2-2.4,4.5-3.4,6.8c-9.6-1.5-19.5-1.5-29.1,0 c-1-2.3-2.1-4.6-3.4-6.8c-9.1,1.5-17.9,4.3-26.2,8.1C2.8,32.7-1.7,56.6,0.5,80.2l0,0c9.7,7.2,20.6,12.6,32.2,16.2 c2.6-3.5,4.9-7.2,6.9-11.1c-3.8-1.4-7.4-3.1-10.9-5.2c0.9-0.7,1.8-1.3,2.7-2c20.4,9.6,44,9.6,64.3,0c0.9,0.7,1.8,1.4,2.7,2 c-3.5,2-7.1,3.8-10.9,5.2c2,3.9,4.3,7.6,6.9,11.1c11.6-3.5,22.5-9,32.2-16.1l0,0C129.2,52.8,122.1,29.1,107.7,8.1z M42.5,65.7 C36.2,65.7,31,60,31,53s5-12.7,11.4-12.7S54,46,53.9,53S48.8,65.7,42.5,65.7z M84.7,65.7c-6.3,0-11.4-5.7-11.4-12.7 s5-12.7,11.4-12.7S96.2,46,96.1,53S91.1,65.7,84.7,65.7z"/></svg>
+<svg width="19" height="19" viewBox="-2 -3 19 19" class="social-icon" id="ico-github" xmlns="http://www.w3.org/2000/svg"><path d="M9.88808 14.9987C9.81902 14.9283 9.7474 14.8612 9.68217 14.7876C9.58369 14.6751 9.53765 14.5436 9.53893 14.3891C9.5434 13.7124 9.55172 13.0351 9.53893 12.3591C9.53381 12.094 9.49097 11.8277 9.43981 11.5673C9.37522 11.2418 9.19297 10.9866 8.92695 10.7959C8.90265 10.7782 8.87835 10.7611 8.83422 10.7295C9.00368 10.7065 9.15204 10.6881 9.29976 10.6664C9.72054 10.6052 10.1356 10.5164 10.5391 10.3751C11.4759 10.0469 12.0853 9.39982 12.3335 8.4121C12.5336 7.61508 12.6027 6.80754 12.462 5.99014C12.3686 5.44958 12.1608 4.95835 11.8065 4.54801C11.6383 4.35335 11.5968 4.16857 11.6377 3.91407C11.7125 3.44651 11.7112 2.97435 11.5706 2.51337C11.5584 2.47391 11.5443 2.43446 11.5296 2.39632C11.4471 2.18523 11.4075 2.16089 11.1894 2.18128C10.8965 2.20824 10.6209 2.30491 10.3613 2.43577C10.0198 2.60807 9.68921 2.80272 9.3522 2.98487C9.31639 3.00395 9.26779 3.02367 9.23198 3.01447C8.73127 2.88426 8.22096 2.84283 7.7081 2.83231C7.08652 2.81982 6.46687 2.84349 5.85617 2.97961C5.74106 3.00526 5.62787 3.04011 5.5166 3.07957C5.45969 3.09996 5.4194 3.0947 5.36952 3.05853C4.90526 2.72644 4.42053 2.4338 3.86802 2.28715C3.69984 2.24244 3.52334 2.23126 3.35005 2.20627C3.27331 2.19509 3.22982 2.22731 3.19849 2.30557C2.9881 2.82902 2.9395 3.37155 3.01112 3.92788C3.02903 4.06861 3.0578 4.20802 3.0917 4.34546C3.10768 4.41057 3.09809 4.45528 3.05908 4.50658C2.94334 4.6598 2.82695 4.81368 2.72016 4.97348C2.42536 5.4167 2.3045 5.91517 2.29043 6.44651C2.27316 7.11661 2.32304 7.77817 2.54046 8.41605C2.88962 9.44323 3.60903 10.0752 4.59127 10.4132C4.833 10.4967 5.0824 10.5618 5.33243 10.6157C5.57927 10.669 5.83123 10.6986 6.08766 10.7394C6.07743 10.7512 6.06847 10.767 6.05504 10.7782C5.78135 11.0202 5.58439 11.3089 5.51404 11.6811C5.50765 11.7159 5.46736 11.7554 5.43347 11.7718C5.13291 11.9198 4.81381 11.9441 4.48576 11.9296C4.06306 11.9112 3.74652 11.7146 3.49457 11.372C3.31807 11.132 3.12815 10.8998 2.92287 10.6854C2.70865 10.4619 2.43559 10.3691 2.12608 10.4158C2.11585 10.4171 2.10434 10.4152 2.09603 10.4198C2.03975 10.452 1.95022 10.4763 1.93871 10.5217C1.92656 10.5671 1.98156 10.6466 2.02696 10.6887C2.11457 10.769 2.21881 10.8295 2.31217 10.9038C2.57564 11.1149 2.76812 11.3838 2.90049 11.6982C3.0124 11.9632 3.1339 12.2216 3.32958 12.4347C3.65188 12.7852 4.06051 12.9391 4.51773 12.9522C4.81701 12.9608 5.11693 12.9345 5.43155 12.9233C5.43411 12.9601 5.43986 13.014 5.4405 13.068C5.4437 13.4842 5.43795 13.9011 5.45074 14.3174C5.45841 14.5712 5.36313 14.7587 5.1732 14.9073C5.13611 14.9362 5.10222 14.9691 5.06641 15C5.05937 15 5.05298 15 5.04594 15C4.81637 14.902 4.58296 14.8126 4.35786 14.7041C2.76172 13.9334 1.56206 12.7398 0.774222 11.1175C0.171832 9.87659 -0.0750073 8.55875 0.0196357 7.1758C0.143695 5.35752 0.81259 3.77598 2.01993 2.44498C3.14605 1.20276 4.52988 0.428102 6.15608 0.12363C6.41763 0.0749671 6.68365 0.0532661 6.94776 0.018413C6.9695 0.0157825 6.9906 0.00657606 7.01234 0C7.33656 0 7.66078 0 7.98499 0C8.13719 0.0197282 8.28939 0.0394564 8.44158 0.0591846C9.61631 0.209776 10.7002 0.618808 11.6767 1.30601C13.3509 2.48246 14.4322 4.08965 14.8338 6.13547C15.293 8.47392 14.7993 10.6065 13.37 12.4912C12.4895 13.6519 11.3582 14.468 10.0115 14.9671C9.98976 14.975 9.97058 14.9882 9.94947 14.9987C9.92901 14.9987 9.90855 14.9987 9.88808 14.9987Z"/></svg>
+<svg width="19" height="19" viewBox="-2 -2 19 19" class="social-icon" id="ico-linkedin" xmlns="http://www.w3.org/2000/svg"><path d="M3.1669 1.5625C3.1669 2.42563 2.47191 3.125 1.61413 3.125C0.756343 3.125 0.0613505 2.42563 0.0613505 1.5625C0.0613505 0.7 0.756343 0 1.61413 0C2.47191 0 3.1669 0.7 3.1669 1.5625ZM3.17942 4.375H0.0488281V14.375H3.17942V4.375ZM8.1771 4.375H5.06655V14.375H8.17773V9.12562C8.17773 6.20687 11.9526 5.96812 11.9526 9.12562V14.375H15.0757V8.04313C15.0757 3.11813 9.48945 3.2975 8.1771 5.72187V4.375Z"/></svg>
+<svg width="19" height="19" viewBox="-1 -1 20 20" class="social-icon" id="ico-reddit" xmlns="http://www.w3.org/2000/svg"><path d="M18 8.83425C18 7.74 17.106 6.8505 16.0072 6.8505C15.471 6.8505 14.985 7.065 14.6273 7.41C13.2698 6.51675 11.433 5.94825 9.399 5.8755L10.5113 2.37375L13.5233 3.0795L13.5187 3.123C13.5187 4.01775 14.25 4.74525 15.1493 4.74525C16.0477 4.74525 16.7782 4.01775 16.7782 3.123C16.7782 2.22825 16.047 1.5 15.1493 1.5C14.4592 1.5 13.8712 1.9305 13.6335 2.53425L10.3868 1.773C10.245 1.7385 10.101 1.82025 10.0568 1.95975L8.81625 5.865C6.68775 5.8905 4.7595 6.4635 3.34125 7.38375C2.98575 7.05525 2.514 6.84975 1.992 6.84975C0.89325 6.84975 0 7.74 0 8.83425C0 9.56175 0.39975 10.1925 0.98775 10.5375C0.94875 10.749 0.92325 10.9627 0.92325 11.1803C0.92325 14.1135 4.52925 16.5 8.9625 16.5C13.3958 16.5 17.0025 14.1135 17.0025 11.1803C17.0025 10.9747 16.9807 10.7723 16.9462 10.5728C17.5702 10.2375 18 9.58875 18 8.83425ZM5.082 10.1962C5.082 9.54525 5.6145 9.015 6.2685 9.015C6.9225 9.015 7.45425 9.54525 7.45425 10.1962C7.45425 10.8472 6.9225 11.3767 6.2685 11.3767C5.6145 11.3767 5.082 10.8472 5.082 10.1962ZM11.8778 13.698C11.28 14.2928 10.3417 14.5823 9.00975 14.5823L9 14.58L8.99025 14.5823C7.6575 14.5823 6.71925 14.2928 6.12225 13.698C6.0135 13.59 6.0135 13.4137 6.12225 13.3057C6.231 13.197 6.408 13.197 6.51675 13.3057C7.00425 13.791 7.8135 14.0265 8.99025 14.0265L9 14.0287L9.00975 14.0265C10.1865 14.0265 10.9957 13.7902 11.4832 13.305C11.592 13.1962 11.769 13.197 11.8778 13.305C11.9865 13.4137 11.9865 13.5892 11.8778 13.698ZM11.736 11.3767C11.082 11.3767 10.5503 10.8472 10.5503 10.1962C10.5503 9.54525 11.082 9.015 11.736 9.015C12.39 9.015 12.9218 9.54525 12.9218 10.1962C12.9218 10.8472 12.39 11.3767 11.736 11.3767Z"/></svg>
+<svg width="19" height="19" viewBox="-2 -4 18 18" class="social-icon" id="ico-slack" xmlns="http://www.w3.org/2000/svg"><path d="M9.54419 3.10824C9.54419 3.64936 9.55039 4.19049 9.54306 4.73161C9.53179 5.56021 8.96072 6.15093 8.18333 6.14981C7.40142 6.14811 6.85629 5.56415 6.85403 4.71752C6.85121 3.63527 6.85009 2.55302 6.8546 1.47077C6.85854 0.652324 7.40819 0.0779431 8.18051 0.0723064C8.94776 0.0666697 9.52728 0.646123 9.54194 1.44879C9.55208 2.00175 9.54419 2.55528 9.54419 3.10824Z"/><path d="M3.10465 3.46684C3.67008 3.46627 4.23494 3.45726 4.80037 3.46853C5.58566 3.48431 6.15391 4.05644 6.15109 4.81119C6.14827 5.56144 5.56649 6.14766 4.79304 6.15386C3.67459 6.16287 2.55613 6.16231 1.43768 6.15442C0.657467 6.14878 0.0779454 5.57327 0.0723081 4.8219C0.0666707 4.05813 0.62308 3.48713 1.40949 3.46966C1.97379 3.45782 2.53922 3.4674 3.10465 3.46684Z"/><path d="M9.86655 9.54063C9.3372 9.54063 8.80841 9.54513 8.27963 9.5395C7.43684 9.53048 6.87986 8.9809 6.85224 8.19289C6.828 7.50859 7.45544 6.81302 8.26948 6.84064C9.35017 6.87728 10.4337 6.84628 11.5155 6.85079C12.3447 6.85417 12.9457 7.43024 12.935 8.20022C12.9248 8.95666 12.3295 9.5271 11.5256 9.53837C10.9726 9.54683 10.4196 9.54063 9.86655 9.54063Z"/><path d="M3.46631 9.90563C3.46631 9.32843 3.45729 8.75123 3.46856 8.17459C3.48378 7.39166 4.05485 6.8432 4.82886 6.85166C5.57469 6.85955 6.14575 7.42153 6.15196 8.17967C6.16098 9.30983 6.16041 10.44 6.15252 11.5701C6.14688 12.3328 5.54763 12.9275 4.80575 12.9286C4.07796 12.9297 3.48604 12.3497 3.47025 11.6017C3.45841 11.0369 3.468 10.4716 3.468 9.90675C3.46687 9.90563 3.46687 9.90563 3.46631 9.90563Z"/><path d="M10.2623 6.15318C10.2623 5.58838 10.2093 5.04557 10.2753 4.51797C10.3627 3.82578 11.0307 3.39458 11.7647 3.4718C12.3966 3.53831 12.9153 4.12171 12.9282 4.78121C12.9418 5.45874 12.4147 6.0799 11.7393 6.14078C11.3701 6.17404 10.9957 6.15093 10.6237 6.15262C10.5059 6.15375 10.388 6.15318 10.2623 6.15318Z"/><path d="M6.85597 10.2593C7.41463 10.2593 7.93383 10.2142 8.44176 10.2705C9.12389 10.3455 9.59968 11.0084 9.53711 11.6966C9.4734 12.3973 8.86964 12.9435 8.17342 12.9305C7.46368 12.917 6.88021 12.3623 6.85822 11.66C6.84469 11.2045 6.85597 10.7485 6.85597 10.2593Z"/><path d="M6.14475 2.75336C5.61145 2.75336 5.11875 2.78211 4.63111 2.7466C3.92419 2.69531 3.42866 2.06174 3.46474 1.31206C3.49744 0.630017 4.06681 0.0860744 4.76303 0.0725463C5.47728 0.0584546 6.09232 0.576468 6.13855 1.27373C6.17012 1.75003 6.14475 2.22971 6.14475 2.75336Z"/><path d="M2.74351 6.85536C2.74351 7.40494 2.78917 7.92352 2.73223 8.43082C2.655 9.12357 1.96217 9.61509 1.27328 9.53618C0.553953 9.45388 0.0420801 8.84681 0.0736494 8.11348C0.103527 7.42129 0.654299 6.87565 1.35841 6.85705C1.81221 6.84578 2.26602 6.85536 2.74351 6.85536Z"/></svg>
+<svg width="19" height="19" class="social-icon" id="ico-twitter" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -4 20 21"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM12.4442 12.4385H12.4444V12.4388C12.4444 12.4387 12.4443 12.4386 12.4442 12.4385ZM12.4442 12.4385C12.3063 12.2034 12.147 11.9828 11.9879 11.7621C11.9252 11.6753 11.8625 11.5884 11.8011 11.5007C10.8596 10.1554 9.91577 8.81193 8.96805 7.47112C8.89136 7.36224 8.89106 7.29538 8.98084 7.1939C9.93829 6.11258 10.8918 5.02763 11.8454 3.94269L12.0419 3.71909C12.0508 3.70887 12.0603 3.69898 12.0699 3.68906C12.1045 3.65305 12.1394 3.6167 12.148 3.56288H11.3481C10.795 4.19156 10.2419 4.82002 9.68868 5.44853C9.33671 5.84843 8.98471 6.24834 8.63272 6.64835L8.63245 6.64866C8.49984 6.79983 8.49916 6.8006 8.38182 6.63385C7.92836 5.98933 7.47501 5.34469 7.02163 4.70001C6.75514 4.32107 6.48864 3.94213 6.2221 3.56318C6.08055 3.56318 5.939 3.56316 5.79744 3.56315C5.08967 3.56306 4.38191 3.56298 3.67414 3.56495C3.66438 3.56495 3.65364 3.56279 3.64261 3.56056C3.61029 3.55405 3.57547 3.54703 3.55552 3.59247C3.72018 3.82683 3.88483 4.06121 4.04947 4.2956C4.99865 5.64681 5.94791 6.99813 6.90019 8.34774C6.97392 8.45217 6.98789 8.52436 6.89603 8.6285C6.08123 9.54999 5.26876 10.4736 4.45625 11.3973C4.18409 11.7067 3.91192 12.0162 3.63965 12.3255C3.62167 12.3458 3.60214 12.3646 3.58261 12.3834C3.57373 12.392 3.56485 12.4005 3.55612 12.4092C3.55224 12.4531 3.57748 12.4461 3.59774 12.4406C3.60386 12.4389 3.60952 12.4373 3.61379 12.4373C3.82417 12.439 4.03474 12.4389 4.24519 12.4389C4.29198 12.4388 4.33876 12.4388 4.38552 12.4388C4.59178 12.1763 4.81411 11.9279 5.03644 11.6794C5.13264 11.5719 5.22883 11.4643 5.32373 11.3557C5.7723 10.8418 6.22324 10.3298 6.67414 9.81779C6.86153 9.60503 7.04891 9.39227 7.23611 9.17938C7.37108 9.02583 7.37197 9.02524 7.48761 9.18944C7.83767 9.6873 8.18766 10.1853 8.53764 10.6833C8.8873 11.1809 9.23696 11.6784 9.58669 12.1758C9.63066 12.2381 9.67582 12.2995 9.72102 12.361C9.73998 12.3868 9.75895 12.4126 9.77784 12.4385H12.4442ZM5.14262 4.16207C5.18039 4.16232 5.21817 4.16258 5.25595 4.16258V4.16228C5.27933 4.16228 5.30288 4.16335 5.32643 4.16441C5.37746 4.16671 5.4285 4.16901 5.47772 4.16051C5.72862 4.11731 5.87607 4.22767 6.02114 4.4321C7.40127 6.37558 8.78815 8.31444 10.1749 10.2532C10.5093 10.7207 10.8437 11.1881 11.178 11.6557C11.1852 11.6657 11.1924 11.6758 11.1996 11.6858C11.2154 11.708 11.2311 11.73 11.2473 11.7518C11.3145 11.8427 11.2761 11.872 11.1795 11.872C11.1247 11.8718 11.0699 11.8716 11.0151 11.8714C10.7688 11.8705 10.5224 11.8696 10.2761 11.8722C10.1722 11.8734 10.1249 11.807 10.0747 11.7367C10.0728 11.7342 10.071 11.7316 10.0692 11.7291C9.49195 10.9212 8.91435 10.1135 8.33668 9.30576C8.18575 9.09471 8.03482 8.88365 7.88388 8.67258L7.88356 8.67214C6.85122 7.22822 5.81889 5.7843 4.78744 4.3398C4.77875 4.32767 4.76756 4.31543 4.7562 4.30302C4.72407 4.26789 4.69057 4.23128 4.70837 4.19128C4.72739 4.14825 4.77503 4.15419 4.82121 4.15995C4.83853 4.16211 4.85565 4.16425 4.87098 4.16376C4.96141 4.16084 5.052 4.16145 5.14262 4.16207Z"/></svg>
+<svg width="16" height="18" class="social-icon" id="ico-x-twitter" viewBox="-5 -6 29 32" xmlns="http://www.w3.org/2000/svg"><path d="M24 23.9833H16.8002C16.6277 23.7469 16.4527 23.5128 16.2841 23.274C14.3947 20.5868 12.5061 17.898 10.6166 15.2108C10.3044 14.7675 10.302 14.7691 9.9376 15.1837C8.21591 17.1415 6.48861 19.0954 4.77416 21.0597C3.92576 22.031 3.03883 22.9688 2.241 23.9841C1.5467 23.9841 0.85161 23.9857 0.157319 23.9801C0.107555 23.9801 -0.0120397 24.0584 0.0016053 23.9042C0.0770543 23.8292 0.156517 23.7581 0.22715 23.6782C3.15682 20.3495 6.08247 17.0177 9.01936 13.6963C9.26738 13.4151 9.22966 13.2202 9.0306 12.9382C6.01344 8.6622 3.00753 4.3798 0 0.0989932C0.0722384 -0.065561 0.216715 0.0247041 0.320257 0.0247041C2.61342 0.0183137 4.90659 0.0199113 7.19976 0.0199113C9.14377 2.78378 11.087 5.54766 13.031 8.31073C13.3481 8.76126 13.3497 8.75886 13.7084 8.34987C16.1525 5.57242 18.5966 2.79656 21.0398 0.0191125C21.7598 0.0191125 22.4798 0.0191125 23.1998 0.0191125C23.1701 0.204436 23.0248 0.313073 22.9132 0.440883C20.1617 3.57141 17.4111 6.70273 14.6483 9.82287C14.4059 10.0969 14.4067 10.2774 14.6138 10.5714C17.1727 14.1915 19.7211 17.8189 22.2631 21.4511C22.8498 22.2899 23.4807 23.099 24 23.9841V23.9833ZM4.59115 1.63829C4.24441 1.63829 3.89766 1.63031 3.55172 1.64149C3.40002 1.64628 3.18331 1.55602 3.11267 1.71578C3.04766 1.86196 3.23628 1.99137 3.32618 2.11678C6.11137 6.01735 8.89897 9.91633 11.6866 13.8153C13.6539 16.5664 15.6212 19.3167 17.5868 22.0678C17.7281 22.2651 17.8549 22.4576 18.1455 22.4544C18.9586 22.4456 19.7716 22.4512 20.5847 22.4536C20.8456 22.4536 20.9491 22.3745 20.7677 22.1293C20.7043 22.0438 20.6433 21.9567 20.5807 21.8697C15.935 15.3722 11.282 8.87868 6.65717 2.36601C6.26548 1.81403 5.86736 1.51608 5.18993 1.6327C4.99569 1.66625 4.79101 1.6375 4.59115 1.6375V1.63829Z"/></svg>
+<svg width="19" height="19" class="social-icon" id="ico-mailinglist" viewBox="0 -4 19 19" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_31606_46722)"><path d="M9.77663 5.55136C10.7446 5.55136 11.7122 5.55451 12.6801 5.54853C12.8503 5.54759 12.9254 5.59193 12.9447 5.77026C13.1665 7.83057 12.7456 9.70218 11.2419 11.2388C10.3352 12.1651 9.19618 12.6793 7.91394 12.8931C6.87568 13.0664 5.84417 13.0365 4.82647 12.7519C3.45786 12.3695 2.32907 11.6307 1.44107 10.5441C0.628185 9.54965 0.15882 8.40831 0.0336131 7.14527C-0.0809992 5.98884 0.0952534 4.86795 0.596723 3.80493C1.31136 2.28965 2.45171 1.19675 4.00813 0.526227C4.72309 0.218328 5.47497 0.0551009 6.25864 0.011385C7.40829 -0.0524592 8.49824 0.151654 9.53489 0.637876C10.0704 0.889164 10.5548 1.2153 11.0001 1.599C11.0916 1.67794 11.0942 1.73707 11.0053 1.81978C10.4727 2.31701 9.94197 2.81644 9.41385 3.31807C9.31529 3.41148 9.24691 3.39701 9.14771 3.31147C8.50594 2.75857 7.74924 2.50037 6.89976 2.44533C5.11123 2.32959 3.57921 3.35959 2.93071 4.80819C1.88411 7.14558 3.16057 9.95347 5.84289 10.4743C7.25516 10.7485 8.56213 10.4601 9.58754 9.37289C9.93491 9.0043 10.168 8.56777 10.3102 8.08752C10.3853 7.8334 10.3715 7.82428 10.1035 7.82397C9.05621 7.82365 8.00865 7.82397 6.9614 7.82397C6.73282 7.82397 6.61853 7.70917 6.61853 7.47958C6.61853 6.92103 6.62591 6.36247 6.61468 5.80422C6.61082 5.60986 6.6699 5.54507 6.87312 5.54696C7.84074 5.55577 8.80869 5.55105 9.77663 5.55105V5.55136Z"/></g><defs><clipPath id="clip0_31606_46722"><rect width="13" height="13"/></clipPath></defs></svg>
+<svg height="21" class="social-icon" id="ico-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">  <g clip-path="url(#clip0_28725_12714)"><path d="M7.33968 0C5.48143 0 3.9624 1.51813 3.9624 3.37529C3.9624 5.23244 5.48143 6.75058 7.33968 6.75058C9.19793 6.75058 10.717 5.23244 10.717 3.37529C10.717 1.51813 9.19793 0 7.33968 0Z"/><path d="M13.1362 9.448C13.0477 9.2269 12.9297 9.02056 12.797 8.82895C12.1185 7.82667 11.0715 7.16342 9.89163 7.00128C9.74416 6.98656 9.58193 7.01601 9.46394 7.10446C8.84452 7.56137 8.10713 7.79719 7.34022 7.79719C6.57331 7.79719 5.83593 7.56137 5.21651 7.10446C5.09851 7.01601 4.93628 6.9718 4.78882 7.00128C3.60898 7.16342 2.54714 7.82667 1.88348 8.82895C1.75075 9.02056 1.63276 9.24166 1.54429 9.448C1.50006 9.53644 1.51479 9.63961 1.55903 9.72806C1.67702 9.9344 1.82449 10.1408 1.95722 10.3176C2.16368 10.5977 2.38491 10.8482 2.63563 11.0841C2.8421 11.2904 3.07806 11.482 3.31405 11.6736C4.47912 12.5432 5.88019 13.0001 7.32549 13.0001C8.77079 13.0001 10.1719 12.5432 11.3369 11.6736C11.5729 11.4968 11.8089 11.2904 12.0153 11.0841C12.2513 10.8482 12.4873 10.5977 12.6938 10.3176C12.8412 10.126 12.974 9.9344 13.0919 9.72806C13.1657 9.63961 13.1804 9.53641 13.1362 9.448Z"/></g><defs><clipPath id="clip0_28725_12714"><rect width="13.0077" height="13" fill="white" transform="translate(0.834473)"/></clipPath></defs></svg>
+<svg height="17" width="17" class="social-icon" id="ico-phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17"><path d="M3.86698 7.56209C5.14318 10.0702 7.19928 12.1174 9.70737 13.4025L11.6571 11.4527C11.8964 11.2134 12.2509 11.1337 12.5611 11.24C13.5537 11.5679 14.6261 11.7452 15.725 11.7452C16.2124 11.7452 16.6113 12.144 16.6113 12.6314V15.7245C16.6113 16.2119 16.2124 16.6107 15.725 16.6107C7.40311 16.6107 0.658752 9.86634 0.658752 1.54445C0.658752 1.05702 1.05756 0.658203 1.545 0.658203H4.64688C5.13432 0.658203 5.53313 1.05702 5.53313 1.54445C5.53313 2.65227 5.71038 3.71577 6.03829 4.70837C6.13578 5.01855 6.06488 5.36419 5.81673 5.61234L3.86698 7.56209Z"/></svg>      <svg width="12" height="12" class="theme-common-icon" id="menu-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.19089 3.07202C2.38783 2.94073 2.65391 2.99395 2.7852 3.19089L5.85716 7.79882L8.92911 3.19089C9.06041 2.99395 9.32649 2.94073 9.52343 3.07202C9.72037 3.20332 9.77359 3.4694 9.64229 3.66634L6.21375 8.80916C6.13426 8.92839 6.00045 9 5.85716 9C5.71387 9 5.58005 8.92839 5.50057 8.80916L2.07202 3.66634C1.94073 3.4694 1.99395 3.20332 2.19089 3.07202Z"/></svg>
+<svg width="21.88" height="25" class="theme-common-icon" id="wide-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+<svg width="9" height="16" viewBox="0 0 9 16" id="medium-chevron" fill="none" class="theme-common-icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L8 8.02513L1 15" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<svg width="31" height="31" viewBox="0 1 17 17" class="theme-common-icon" id="search-header" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.2986 11.296C11.5978 11.0472 12.0828 11.0472 12.382 11.296L15.4463 13.845C15.7455 14.0939 15.7455 14.4974 15.4463 14.7463C15.1471 14.9951 14.7891 14.9951 14.49 14.7463L11.2986 12.1972C10.9994 11.9484 10.9994 11.5449 11.2986 11.296Z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.23534 4.16542C5.93121 4.16542 4.06334 6.02995 4.06334 8.32996C4.06334 10.63 5.93121 12.4945 8.23534 12.4945C10.5395 12.4945 12.4073 10.63 12.4073 8.32996C12.4073 6.02995 10.5395 4.16542 8.23534 4.16542ZM3.25586 8.32996C3.25586 5.58478 5.48525 3.35938 8.23534 3.35938C10.9854 3.35938 13.2148 5.58478 13.2148 8.32996C13.2148 11.0751 10.9854 13.3006 8.23534 13.3006C5.48525 13.3006 3.25586 11.0751 3.25586 8.32996Z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.23489 4.80704C6.28524 4.80704 4.70474 6.38472 4.70474 8.33088C4.70474 10.2771 6.28524 11.8547 8.23489 11.8547C10.1845 11.8547 11.765 10.2771 11.765 8.33088C11.765 6.38472 10.1845 4.80704 8.23489 4.80704ZM4.02148 8.33088C4.02148 6.00804 5.90789 4.125 8.23489 4.125C10.5619 4.125 12.4483 6.00804 12.4483 8.33088C12.4483 10.6537 10.5619 12.5368 8.23489 12.5368C5.90789 12.5368 4.02148 10.6537 4.02148 8.33088Z"/>
+</svg> 
+<svg width="31" height="31" class="theme-common-icon" id="search" xmlns="http://www.w3.org/2000/svg" viewBox="2 1 31 31" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M20.9413 20.2372C21.4927 19.7777 22.3865 19.7777 22.9379 20.2372L28.5849 24.943C29.1363 25.4025 29.1363 26.1474 28.5849 26.6068C28.0336 27.0663 27.3739 27.0663 26.8226 26.6068L20.9413 21.9009C20.39 21.4415 20.39 20.6966 20.9413 20.2372Z" fill="#256BD1"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2941 7.07597C11.048 7.07597 7.60575 10.5182 7.60575 14.7644C7.60575 19.0105 11.048 22.4528 15.2941 22.4528C19.5403 22.4528 22.9825 19.0105 22.9825 14.7644C22.9825 10.5182 19.5403 7.07597 15.2941 7.07597ZM6.11768 14.7644C6.11768 9.69634 10.2261 5.58789 15.2941 5.58789C20.3622 5.58789 24.4706 9.69634 24.4706 14.7644C24.4706 19.8324 20.3622 23.9408 15.2941 23.9408C10.2261 23.9408 6.11768 19.8324 6.11768 14.7644Z" fill="#256BD1"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15.294 8.25914C11.7011 8.25914 8.78844 11.1718 8.78844 14.7647C8.78844 18.3576 11.7011 21.2703 15.294 21.2703C18.8869 21.2703 21.7996 18.3576 21.7996 14.7647C21.7996 11.1718 18.8869 8.25914 15.294 8.25914ZM7.5293 14.7647C7.5293 10.4764 11.0057 7 15.294 7C19.5823 7 23.0587 10.4764 23.0587 14.7647C23.0587 19.053 19.5823 22.5294 15.294 22.5294C11.0057 22.5294 7.5293 19.053 7.5293 14.7647Z" fill="white"/></svg>
+<svg width="21" height="17" viewBox="0 0 27 21" class="theme-common-icon" id="ico-envelope-contact" xmlns="http://www.w3.org/2000/svg"><path d="M27 2.625C27 1.18125 25.785 0 24.3 0H2.7C1.215 0 0 1.18125 0 2.625V18.375C0 19.8188 1.215 21 2.7 21H24.3C25.785 21 27 19.8188 27 18.375V2.625ZM24.3 2.625L13.5 9.17437L2.7 2.625H24.3ZM24.3 18.375H2.7V5.25L13.5 11.8125L24.3 5.25V18.375Z"/></svg>    </div>
+
+
+    <header id="header">
+      <div class="nav-top">
+        <div class="container">
+          <nav>
+            
+          <ul id="menu-above-main-menu-left" class="nav"><li id="menu-item-24784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24784"><a href="https://wazuh.com/blog/">Blog</a></li>
+<li id="menu-item-24670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24670"><a href="https://wazuh.com/community/">Community</a></li>
+<li id="menu-item-24671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24671"><a href="https://wazuh.com/contact-us/">Contact us</a></li>
+</ul>                <ul id="menu-subfooter-social-links" class="nav"><li id="menu-item-151" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-151"><a target="_blank" href="https://twitter.com/wazuh" title="Wazuh on Twitter"><svg><use xlink:href="#ico-twitter"/></svg><span class="visually-hidden">Twitter</span></a></li>
+<li id="menu-item-5728" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-5728"><a target="_blank" href="https://www.linkedin.com/company/wazuh" title="Wazuh on LinkedIn"><svg><use xlink:href="#ico-linkedin"/></svg><span class="visually-hidden">LinkedIn</span></a></li>
+<li id="menu-item-10885" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-10885"><a target="_blank" href="https://www.reddit.com/r/Wazuh/" title="Wazuh on Reddit"><svg><use xlink:href="#ico-reddit"/></svg><span class="visually-hidden">Reddit</span></a></li>
+<li id="menu-item-150" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-150"><a target="_blank" href="https://github.com/wazuh" title="Wazuh on Github"><svg><use xlink:href="#ico-github"/></svg><span class="visually-hidden">GitHub</span></a></li>
+<li id="menu-item-23289" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-23289"><a target="_blank" href="https://discord.gg/rg9eZTtC7W" title="Join us on Discord"><svg><use xlink:href="#ico-discord" /></svg><span class="visually-hidden">Discord</span></a></li>
+<li id="menu-item-12129" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-12129"><a target="_blank" href="https://join.slack.com/t/wazuh/shared_invite/zt-30yogou75-V31vfTl_NsDGz2hH0Yux6Q" title="Join us on Slack"><svg><use xlink:href="#ico-slack"/></svg><span class="visually-hidden">Slack</span></a></li>
+<li id="menu-item-14606" class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-14606"><a target="_blank" href="https://groups.google.com/g/wazuh/" title="Subscribe to our mailing list"><svg><use xlink:href="#ico-mailinglist"/></svg><span class="visually-hidden">Mailing list</a></li>
+</ul>            </nav>
+            <div class="desktop-search-form">
+              <div class="header-search collapsed">
+    <form method="get" action="https://wazuh.com/search/" >
+        <div class="search-input-wrapper-container">
+          <div class="search-input-wrapper">
+            <label aria-label="Search here">
+              <span class="visually-hidden">Search here</span>
+              
+                          <input autocomplete="off" type="text" class="form-control" name="s" placeholder="Search" />
+            
+                          <button type="submit" class="d-block">
+                <svg width="31" height="31"><use xlink:href="#search-header" /></svg>
+              </button>
+              <button type="button" class="btn-close d-none">
+                <span class="visually-hidden">Close</span>
+              </button>
+            </label>
+                        <button type="submit" class="d-none">
+                <span class="visually-hidden">Search</span>
+                <svg width="31" height="31"><use xlink:href="#search-header" /></svg>
+            </button>
+          </div>
+        </div>
+    </form>
+</div>
+            </div>
+        </div>
+      </div>
+      <div class="nav-main container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand " href="https://wazuh.com">
+              <span class="visually-hidden">Go home</span>
+              <div>
+                
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="173" height="36" viewBox="0 0 2214 455" xml:space="preserve">
+<g transform="matrix(1 0 0 1 1096.56 263)"  >
+	<g>
+		<g transform="matrix(1 0 0 1 -853.6 5.59)" id="Capa_1"  >
+			<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  points="102.79,64.95 29.21,-174.21 -28.88,-174.21 -102.48,64.95 -175.41,-174.37 -242.23,-174.37 -135.72,174.37 -81.5,174.37 0.17,-78.03 81.5,174.37 135.72,174.37 242.23,-174.21 175.74,-174.21 " />
+		</g>
+		<g transform="matrix(1 0 0 1 -4.02 5.67)" id="Capa_1"  >
+			<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  points="-134.41,-113.94 45.34,-113.94 -152.5,163.62 -152.5,174.29 142.83,174.29 142.83,113.94 -45.01,113.94 152.5,-163.31 152.5,-174.29 -134.41,-174.29 " />
+			</g>
+		<g transform="matrix(1 0 0 1 -405.16 5.95)" id="Capa_1"  >
+			<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-938.4, -545.95)" d="M 1052.639 408.128 c -29.888 -31.188 -70.664 -47.599 -118.641 -47.599 c -101.53 0 -178.083 79.72 -178.083 185.428 c 0 105.697 76.553 185.405 178.083 185.405 c 47.865 0 88.642 -16.31 118.641 -47.287 v 39.977 h 68.243 V 367.863 h -68.243 V 408.128 z M 940.953 667.143 c -67.02 0 -115.686 -50.965 -115.686 -121.185 c 0 -69.998 48.665 -120.807 115.686 -120.807 c 66.82 0 115.33 50.81 115.33 120.807 C 1056.283 616.178 1007.774 667.143 940.953 667.143 z" stroke-linecap="round" />
+		</g>
+		<g transform="matrix(1 0 0 1 371.69 9.61)" id="Capa_1"  >
+			<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-1715.24, -549.61)" d="M 1809.883 568.668 c 0 62.576 -34.443 98.475 -94.464 98.475 c -60.243 0 -94.797 -35.899 -94.797 -98.475 V 367.863 h -68.265 v 206.294 c 0 116.03 87.842 157.206 163.062 157.206 c 75.064 0 162.706 -41.176 162.706 -157.206 V 367.863 h -68.242 V 568.668 z" stroke-linecap="round" />
+		</g>
+		<g transform="matrix(1 0 0 1 775.51 -41.04)" id="Capa_1"  >
+			<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-2119.06, -498.96)" d="M 2272.846 488.87 c -1.933 -14.211 -5.6 -28.733 -10.977 -43.577 c -5.378 -14.844 -13.177 -28.566 -23.399 -41.154 c -10.222 -12.577 -23.51 -22.744 -39.843 -30.499 c -16.355 -7.744 -36.599 -11.611 -60.687 -11.611 c -31.421 0 -58.198 6.778 -80.353 20.333 c -13.567 8.293 -25.174 18.601 -34.865 30.88 V 277.955 h -60.354 v 442.009 h 68.42 V 538.569 c 0 -20.655 2.311 -38.188 6.933 -52.609 c 4.644 -14.411 10.978 -26.033 19.044 -34.855 c 8.066 -8.822 17.488 -15.222 28.243 -19.199 c 10.755 -3.989 22.155 -5.978 34.221 -5.978 c 18.489 0 33.51 3.766 45.021 11.3 s 20.444 17.422 26.777 29.688 c 6.355 12.266 10.666 25.555 12.911 39.866 c 2.267 14.311 3.4 28.232 3.4 41.788 v 171.395 h 68.42 V 526.303 C 2275.758 515.547 2274.78 503.07 2272.846 488.87 z" stroke-linecap="round" />
+		</g>
+		<g transform="matrix(1 0 0 1 1062.43 131.88)" id="Capa_1"  >
+			<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,122,255); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="55.013" />
+		</g>
+	</g>
+</g>
+</svg>                <span class="blog-subidentity"></span>
+              </div>
+          </a>
+
+          <div class="d-flex">
+            
+            <div class="mobile-search d-lg-none">
+                <button id="btn-mobile-search">
+                  <span class="visually-hidden">Open mobile search</span>
+                  <svg width="30" height="30"><use xlink:href="#search" /></svg>
+                  <span class="d-none"></span>
+                </button>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu-search-bar" aria-controls="main-menu-search-bar" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="main-menu-search-bar">
+              <ul id="main-menu" class="navbar-nav"><li id="menu-item-12825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12825 dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#" href="https://wazuh.com/platform/">Platform <b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-17386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17386"><a href="https://wazuh.com/platform/overview/">Overview</a></li>
+	<li id="menu-item-17388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17388"><a href="https://wazuh.com/platform/xdr/">XDR</a></li>
+	<li id="menu-item-17387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17387"><a href="https://wazuh.com/platform/siem/">SIEM</a></li>
+</ul>
+</li>
+<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="https://wazuh.com/cloud/">Cloud</a></li>
+<li id="menu-item-24785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24785"><a target="_blank" href="https://cti.wazuh.com/">CTI</a></li>
+<li id="menu-item-154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154"><a target="_blank" href="https://documentation.wazuh.com/current/index.html">Documentation</a></li>
+<li id="menu-item-17374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17374 dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#" href="#">Services <b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-17376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17376"><a href="https://wazuh.com/services/professional-support/">Professional support</a></li>
+	<li id="menu-item-17375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17375"><a href="https://wazuh.com/services/consulting-services/">Consulting services</a></li>
+	<li id="menu-item-17377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17377"><a href="https://wazuh.com/services/training-courses/">Training courses</a></li>
+</ul>
+</li>
+<li id="menu-item-17362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17362 dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#" href="#">Partners <b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-10454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10454"><a href="https://wazuh.com/partners/">Become a partner</a></li>
+	<li id="menu-item-17363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17363"><a href="https://wazuh.com/partners/find-a-partner/">Find a partner</a></li>
+</ul>
+</li>
+<li id="menu-item-24944" class="mobile-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-24944"><a href="https://wazuh.com/blog/">Blog</a></li>
+<li id="menu-item-10451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10451 dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#">Company <b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-10452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10452"><a href="https://wazuh.com/our-customers/">Customers</a></li>
+	<li id="menu-item-11903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11903"><a href="https://wazuh.com/about-us/">About us</a></li>
+	<li id="menu-item-10453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10453"><a href="https://wazuh.com/our-team/">Our team</a></li>
+	<li id="menu-item-25841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25841"><a href="https://wazuh.com/resources/">Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-158" class="mobile-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="https://wazuh.com/community/">Community</a></li>
+<li id="menu-item-11898" class="mobile-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-11898"><a href="https://wazuh.com/contact-us/">Contact us</a></li>
+<li id="menu-item-11906" class="install menu-item menu-item-type-post_type menu-item-object-page menu-item-11906"><a href="https://wazuh.com/install/">Install Wazuh</a></li>
+<li id="menu-item-11905" class="login menu-item menu-item-type-custom menu-item-object-custom menu-item-11905"><a target="_blank" href="https://console.cloud.wazuh.com/"><svg><use xlink:href="#ico-user"/></svg><span> Log in</span></a></li>
+</ul>          </div>
+        </nav>
+      </div>
+      <div class="mobile-search-form d-none d-lg-none">
+          <div class="container">
+            <div class="header-search collapsed">
+    <form method="get" action="https://wazuh.com/search/" >
+        <div class="search-input-wrapper-container">
+          <div class="search-input-wrapper">
+            <label aria-label="Search here">
+              <span class="visually-hidden">Search here</span>
+              
+                          <input autocomplete="off" type="text" class="form-control" name="s" placeholder="Search" />
+            
+                          <button type="submit" class="d-block">
+                <svg width="31" height="31"><use xlink:href="#search-header" /></svg>
+              </button>
+              <button type="button" class="btn-close d-none">
+                <span class="visually-hidden">Close</span>
+              </button>
+            </label>
+                        <button type="submit" class="d-none">
+                <span class="visually-hidden">Search</span>
+                <svg width="31" height="31"><use xlink:href="#search-header" /></svg>
+            </button>
+          </div>
+        </div>
+    </form>
+</div>
+          </div>
+      </div>
+          </header>
+
+      
+<main id="page-404">
+
+	<section id="page-content-404">
+		<div class="container">
+			<picture>
+        <source type="image/webp"
+                media="(max-width: 575px)" 
+                srcset=" https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-545.webp 545w,
+                        https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-862.webp 862w"
+                sizes="100vw" >
+        <source type="image/webp"
+                media="(min-width: 576px) and (max-width: 991px)" 
+                srcset=" https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-862.webp 862w,
+                        https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1316.webp 1316w"
+                sizes="100vw" >
+        <source type="image/webp"
+                media="(min-width: 992px)" 
+                srcset=" https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1316.webp 1316w,
+                        https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1724.webp 1724w"
+                sizes="1316px" >
+        <source type="image/png"
+                media="(max-width: 575px)" 
+                srcset=" https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-545.png 545w,
+                        https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-862.png 862w"
+                sizes="100vw" >
+        <source type="image/png"
+                media="(min-width: 576px) and (max-width: 991px)" 
+                srcset=" https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-862.png 862w,
+                        https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1316.png 1316w"
+                sizes="100vw" >
+        <source type="image/png"
+                media="(min-width: 992px)" 
+                srcset=" https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1316.png 1316w,
+                        https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1724.png 1724w"
+                sizes="1316px" >
+				<img loading="lazy" src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/404/404-1316.png" alt="404 number image" />   
+			</picture>
+			<h1>Oops! something went wrong</h1>
+			<p>The page you requested could not be found. We are working on it.</p>
+			<a class="wzh-btn-md-gradient-yellow" href="https://wazuh.com" title="Home">Go back home</a>
+		</div>
+	</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <!-- <div class="logo">
+      <a href="https://wazuh.com/" title="Open Source Security">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="130" height="27" viewBox="0 0 1892 388" xml:space="preserve">
+	<g transform="matrix(1 0 0 1 207.47 229.19)">
+		<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  points="-115.97,148.99 -206.97,-148.99 -149.88,-148.99 -87.56,55.5 -24.67,-148.85 24.96,-148.85 87.83,55.5 150.16,-148.85 206.97,-148.85 115.96,148.99 69.64,148.99 0.14,-66.68 -69.64,148.99 " />
+	</g>
+	<g transform="matrix(1 0 0 1 933.4 229.26)"  >
+	<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  points="-130.3,148.92 -130.3,139.81 38.74,-97.35 -114.85,-97.35 -114.85,-148.92 130.3,-148.92 130.3,-139.54 -38.46,97.35 122.04,97.35 122.04,148.92 " />
+	</g>
+	<g transform="matrix(1 0 0 1 590.65 229.49)"  >
+		<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-989.13, -549.61)" d="M 1086.744 431.852 c -25.538 -26.649 -60.38 -40.671 -101.374 -40.671 c -86.753 0 -152.165 68.117 -152.165 158.44 c 0 90.313 65.411 158.421 152.165 158.421 c 40.899 0 75.741 -13.937 101.374 -40.405 v 34.158 h 58.31 V 397.447 h -58.31 V 431.852 z M 991.313 653.169 c -57.266 0 -98.848 -43.547 -98.848 -103.548 c 0 -59.81 41.582 -103.225 98.848 -103.225 c 57.095 0 98.544 43.415 98.544 103.225 C 1089.858 609.621 1048.408 653.169 991.313 653.169 z" stroke-linecap="round" />
+	</g>
+	<g transform="matrix(1 0 0 1 1254.44 232.63)"  >
+		<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-1652.91, -552.74)" d="M 1733.776 397.447 v 171.579 c 0 53.468 -29.43 84.142 -80.715 84.142 c -51.475 0 -81 -30.674 -81 -84.142 V 397.447 h -58.329 v 176.269 c 0 99.143 75.057 134.326 139.329 134.326 c 64.139 0 139.026 -35.184 139.026 -134.326 V 397.447 H 1733.776 z" stroke-linecap="round" />
+	</g>
+	<g transform="matrix(1 0 0 1 1599.48 189.34)"  >
+		<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-1997.96, -509.46)" d="M 1864.067 698.302 V 320.624 h 51.57 v 194.829 h 6.892 v 182.848 H 1864.067 z M 2073.384 698.302 v -146.45 c 0 -11.582 -0.968 -23.478 -2.905 -35.706 c -1.918 -12.228 -5.601 -23.582 -11.032 -34.063 c -5.411 -10.481 -13.044 -18.93 -22.88 -25.367 s -22.671 -9.655 -38.468 -9.655 c -10.31 0 -20.051 1.699 -29.24 5.108 c -9.19 3.399 -17.241 8.867 -24.133 16.405 c -6.892 7.538 -12.304 17.468 -16.272 29.782 c -3.949 12.323 -5.924 27.304 -5.924 44.953 l -35.848 -13.51 c 0 -27.029 5.051 -50.886 15.171 -71.563 c 10.101 -20.687 24.627 -36.816 43.576 -48.399 c 18.93 -11.582 41.81 -17.373 68.658 -17.373 c 20.582 0 37.88 3.304 51.854 9.921 c 13.956 6.627 25.31 15.313 34.044 26.06 c 8.734 10.756 15.399 22.481 19.994 35.165 c 4.595 12.684 7.728 25.092 9.38 37.234 c 1.652 12.133 2.488 22.794 2.488 31.984 v 165.475 H 2073.384 z" stroke-linecap="round" />
+	</g>
+	<g transform="matrix(1 0 0 1 1844.64 337.1)"  >
+		<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(53,133,249); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="47.007" />
+	</g>
+</svg>      </a>
+    </div> -->
+      
+    <div class="row d-flex justify-content-between mainfooter">
+      <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+        <div class="footer-section">
+          <div class="footer-title">
+            Explore 
+          </div>
+          <ul>
+            <li><a href="https://wazuh.com/platform/overview/">Overview</a></li>
+            <li><a href="https://wazuh.com/platform/xdr/">XDR</a></li>
+            <li><a href="https://wazuh.com/platform/siem/">SIEM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+        <div class="footer-section">
+          <div class="footer-title">
+            Services
+          </div>
+          <ul>
+            <li><a href="https://wazuh.com/cloud/" title="Cloud Security">Wazuh Cloud</a></li>
+            <li><a href="https://wazuh.com/services/professional-support/">Professional support</a></li>
+            <li><a href="https://wazuh.com/services/consulting-services/">Consulting services</a></li>
+            <li><a href="https://wazuh.com/services/training-courses/">Training courses</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+        <div class="footer-section" id="footer-section-company">
+          <div class="footer-title">
+            Company
+          </div>
+          <ul>
+            <li><a href="https://wazuh.com/about-us/">About us</a></li>
+            <li><a href="https://wazuh.com/our-customers/">Customers</a></li>
+            <li><a href="https://wazuh.com/partners/">Partners</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+        <div class="footer-section">
+          <div class="footer-title">
+            <a target="_blank" rel="noopener noreferrer" href="https://documentation.wazuh.com/current/index.html">Documentation</a>
+          </div>
+          <ul>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://documentation.wazuh.com/current/quickstart.html">Quickstart</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://documentation.wazuh.com/current/getting-started/index.html">Getting started</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://documentation.wazuh.com/current/installation-guide/index.html">Installation guide</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+        <div class="footer-section">
+          <div class="footer-title">
+            <a href="https://wazuh.com/resources/">Resources</a>
+          </div>
+          <ul>
+            <li><a href="https://wazuh.com/blog/">Blog</a></li>
+            <li><a href="https://wazuh.com/community/">Community</a></li>
+            <li><a href="https://wazuh.com/legal-resources/">Legal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+        <div class="footer-section subscribe">
+          <div class="default-content" aria-hidden="false">
+            <div class="footer-title">Subscribe to our newsletter</div>
+            <form action="https://wazuh.us10.list-manage.com/subscribe/post?u=d467b6ad32cbd900d886dfc53&amp;id=133c38f61b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="mc-field-group">
+                <label class="visually-hidden" for="mce-EMAIL">Email Address</label>
+                <input autocomplete="off" class="form-control" placeholder="Email address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe">
+                  <svg width="21.88" height="25" ><use xlink:href="#wide-chevron"></use></svg>
+                  <span class="visually-hidden">Subscribe</span>
+                </button>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d467b6ad32cbd900d886dfc53_f969e298ee" tabindex="-1" value=""></div>
+            </form>
+            <div class="subscription-terms d-none">
+              Wazuh will not sell, trade, lease, or rent your personal data to third parties. By subscribing, I agree to the use of my personal data in accordance with <a target="_blank" href="https://wazuh.com/legal-resources/general-privacy-statement/">Wazuh Privacy Policy</a>.
+            </div>
+          </div>
+          <div class="subscribed-content" aria-hidden="true">
+            Thanks for subscribing!<br>
+            You will now receive our newsletter with the latest blog posts, announcements and releases.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">  
+    <div class="subfooter">
+      <div class="legal">
+        <div class="logo d-none d-md-flex">
+            <a href="https://wazuh.com" title="Open Source Security">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="28" height="16" viewBox="0 0 28 16" xml:space="preserve">
+  <path d="M16.2491 10.7636L12.7889 0.0132231H10.0484L6.58823 10.7636L3.14187 0H0L5.01038 15.6959H7.57093L11.4187 4.33719L15.2526 15.6959H17.7993L22.8097 0.0132231H19.6817L16.2491 10.7636Z" fill="white"/>
+  <path d="M25.4118 16C26.8412 16 28 14.8929 28 13.5273C28 12.1616 26.8412 11.0546 25.4118 11.0546C23.9823 11.0546 22.8235 12.1616 22.8235 13.5273C22.8235 14.8929 23.9823 16 25.4118 16Z" fill="#3585F9"/>
+</svg>            </a>
+        </div>
+        <div class="logo d-flex d-md-none">
+            <a href="https://wazuh.com" title="Open Source Security">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="130" height="27" viewBox="0 0 1892 388" xml:space="preserve">
+	<g transform="matrix(1 0 0 1 207.47 229.19)">
+		<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  points="-115.97,148.99 -206.97,-148.99 -149.88,-148.99 -87.56,55.5 -24.67,-148.85 24.96,-148.85 87.83,55.5 150.16,-148.85 206.97,-148.85 115.96,148.99 69.64,148.99 0.14,-66.68 -69.64,148.99 " />
+	</g>
+	<g transform="matrix(1 0 0 1 933.4 229.26)"  >
+	<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  points="-130.3,148.92 -130.3,139.81 38.74,-97.35 -114.85,-97.35 -114.85,-148.92 130.3,-148.92 130.3,-139.54 -38.46,97.35 122.04,97.35 122.04,148.92 " />
+	</g>
+	<g transform="matrix(1 0 0 1 590.65 229.49)"  >
+		<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-989.13, -549.61)" d="M 1086.744 431.852 c -25.538 -26.649 -60.38 -40.671 -101.374 -40.671 c -86.753 0 -152.165 68.117 -152.165 158.44 c 0 90.313 65.411 158.421 152.165 158.421 c 40.899 0 75.741 -13.937 101.374 -40.405 v 34.158 h 58.31 V 397.447 h -58.31 V 431.852 z M 991.313 653.169 c -57.266 0 -98.848 -43.547 -98.848 -103.548 c 0 -59.81 41.582 -103.225 98.848 -103.225 c 57.095 0 98.544 43.415 98.544 103.225 C 1089.858 609.621 1048.408 653.169 991.313 653.169 z" stroke-linecap="round" />
+	</g>
+	<g transform="matrix(1 0 0 1 1254.44 232.63)"  >
+		<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-1652.91, -552.74)" d="M 1733.776 397.447 v 171.579 c 0 53.468 -29.43 84.142 -80.715 84.142 c -51.475 0 -81 -30.674 -81 -84.142 V 397.447 h -58.329 v 176.269 c 0 99.143 75.057 134.326 139.329 134.326 c 64.139 0 139.026 -35.184 139.026 -134.326 V 397.447 H 1733.776 z" stroke-linecap="round" />
+	</g>
+	<g transform="matrix(1 0 0 1 1599.48 189.34)"  >
+		<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-1997.96, -509.46)" d="M 1864.067 698.302 V 320.624 h 51.57 v 194.829 h 6.892 v 182.848 H 1864.067 z M 2073.384 698.302 v -146.45 c 0 -11.582 -0.968 -23.478 -2.905 -35.706 c -1.918 -12.228 -5.601 -23.582 -11.032 -34.063 c -5.411 -10.481 -13.044 -18.93 -22.88 -25.367 s -22.671 -9.655 -38.468 -9.655 c -10.31 0 -20.051 1.699 -29.24 5.108 c -9.19 3.399 -17.241 8.867 -24.133 16.405 c -6.892 7.538 -12.304 17.468 -16.272 29.782 c -3.949 12.323 -5.924 27.304 -5.924 44.953 l -35.848 -13.51 c 0 -27.029 5.051 -50.886 15.171 -71.563 c 10.101 -20.687 24.627 -36.816 43.576 -48.399 c 18.93 -11.582 41.81 -17.373 68.658 -17.373 c 20.582 0 37.88 3.304 51.854 9.921 c 13.956 6.627 25.31 15.313 34.044 26.06 c 8.734 10.756 15.399 22.481 19.994 35.165 c 4.595 12.684 7.728 25.092 9.38 37.234 c 1.652 12.133 2.488 22.794 2.488 31.984 v 165.475 H 2073.384 z" stroke-linecap="round" />
+	</g>
+	<g transform="matrix(1 0 0 1 1844.64 337.1)"  >
+		<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(53,133,249); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="47.007" />
+	</g>
+</svg>            </a>
+        </div>
+       
+        <div class="sub-section">
+          <div class="no-border">
+            © 2025 Wazuh, Inc.
+          </div>
+        </div>
+        <div class="sub-section">
+          <div>
+            <a href="https://wazuh.com/contact-us/">Contact us</a>
+          </div>
+          <div>
+            <a class="footer-tel" href="tel:+18443492984">
+              <svg width="16" height="16"><use xlink:href="#ico-phone" /></svg> +1 (844) 349 2984
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-section social">
+        <ul id="menu-subfooter-social-links-1" class="nav"><li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-151"><a target="_blank" href="https://twitter.com/wazuh" title="Wazuh on Twitter"><svg><use xlink:href="#ico-twitter"/></svg><span class="visually-hidden">Twitter</span></a></li>
+<li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-5728"><a target="_blank" href="https://www.linkedin.com/company/wazuh" title="Wazuh on LinkedIn"><svg><use xlink:href="#ico-linkedin"/></svg><span class="visually-hidden">LinkedIn</span></a></li>
+<li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-10885"><a target="_blank" href="https://www.reddit.com/r/Wazuh/" title="Wazuh on Reddit"><svg><use xlink:href="#ico-reddit"/></svg><span class="visually-hidden">Reddit</span></a></li>
+<li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-150"><a target="_blank" href="https://github.com/wazuh" title="Wazuh on Github"><svg><use xlink:href="#ico-github"/></svg><span class="visually-hidden">GitHub</span></a></li>
+<li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-23289"><a target="_blank" href="https://discord.gg/rg9eZTtC7W" title="Join us on Discord"><svg><use xlink:href="#ico-discord" /></svg><span class="visually-hidden">Discord</span></a></li>
+<li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-12129"><a target="_blank" href="https://join.slack.com/t/wazuh/shared_invite/zt-30yogou75-V31vfTl_NsDGz2hH0Yux6Q" title="Join us on Slack"><svg><use xlink:href="#ico-slack"/></svg><span class="visually-hidden">Slack</span></a></li>
+<li class="rrss menu-item menu-item-type-custom menu-item-object-custom menu-item-14606"><a target="_blank" href="https://groups.google.com/g/wazuh/" title="Subscribe to our mailing list"><svg><use xlink:href="#ico-mailinglist"/></svg><span class="visually-hidden">Mailing list</a></li>
+</ul>      </div>
+    </div>
+  </div>
+</footer>
+<div id="btn-scroll-wrapper">
+  <div class="container">    
+    <a id="btn-scroll" class="appear-on-scroll init-hidden" href="#" title="Back to top">
+      <svg width="21.88" height="23"><use xlink:href="#wide-chevron"></use></svg>
+    </a>
+  </div>
+</div>
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/wazuh-v3\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js?ver=1744815409521" id="popper-js-js"></script>
+<script type="text/javascript" src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/js/libs/bootstrap.min.js?ver=1744815409521" id="bootstrap-js-js"></script>
+<script type="text/javascript" src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/js/min/404.min.js?ver=1748339014" id="script-404-js"></script>
+<script type="text/javascript" id="wzh_spam_list_ajax-js-extra">
+/* <![CDATA[ */
+var ajax_object = {"ajaxurl":"https:\/\/wazuh.com\/wzhback\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://wazuh.com/wp-content/plugins/wazuh-spam-emails/assets/validation.js?ver=1744815409521" id="wzh_spam_list_ajax-js"></script>
+</body>
+</html>

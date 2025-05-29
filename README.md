@@ -1,7 +1,7 @@
 # Wazuh Rulesets Collection
 
 <p align="center">
-  <img src="assets/wazuh_logo.svg" width="400" alt="Wazuh Logo"/>
+  <img src="assets/wazuh_logo.png" width="400" alt="Wazuh Logo"/>
 </p>
 
 <p align="center">
