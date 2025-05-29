@@ -20,7 +20,7 @@ This repository contains a collection of custom Wazuh rulesets and decoders for 
 This repository includes rulesets and decoders for the following technologies:
 
 | Technology | Description | Documentation |
-
+| --- | --- | --- |
 | **WithSecure** | Advanced endpoint protection solutions | [WithSecure README](withsecure/README.md) |
 | **Microsoft Defender** | Microsoft's built-in antivirus and security solution | [Defender README](defender/README.md) |
 | **Darktrace** | Enterprise Immune System for network detection and response | [Darktrace README](darktrace/README.md) |
