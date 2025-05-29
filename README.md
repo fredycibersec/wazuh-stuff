@@ -1,7 +1,7 @@
 # Wazuh Rulesets Collection
 
 <p align="center">
-  <img src="https://github.com/fredycibersec/wazuh-stuff/edit/main/assets/wazuh_logo.png" width="400" alt="Wazuh Logo"/>
+  <img src="https://github.com/fredycibersec/wazuh-stuff/assets/wazuh_logo.png" width="400" alt="Wazuh Logo"/>
 </p>
 
 <p align="center">
