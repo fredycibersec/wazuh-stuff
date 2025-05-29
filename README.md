@@ -21,12 +21,12 @@ This repository includes rulesets and decoders for the following technologies:
 
 | Technology | Description | Documentation |
 
-| **WithSecure** | Advanced endpoint protection solutions | [WithSecure README](withsecure/README.md) |\n
-| **Microsoft Defender** | Microsoft's built-in antivirus and security solution | [Defender README](defender/README.md) |\n
-| **Darktrace** | Enterprise Immune System for network detection and response | [Darktrace README](darktrace/README.md) |\n
-| **Kaspersky** | Endpoint security and antivirus solutions | [Kaspersky README](kaspersky/README.md) |\n
-| **Synology** | Network-attached storage devices | [Synology README](synology/README.md) |\n
-| **SMTP/Email** | Email server monitoring with Outlook integration | [SMTP README](smtp/README.md) |\n
+| **WithSecure** | Advanced endpoint protection solutions | [WithSecure README](withsecure/README.md) |
+| **Microsoft Defender** | Microsoft's built-in antivirus and security solution | [Defender README](defender/README.md) |
+| **Darktrace** | Enterprise Immune System for network detection and response | [Darktrace README](darktrace/README.md) |
+| **Kaspersky** | Endpoint security and antivirus solutions | [Kaspersky README](kaspersky/README.md) |
+| **Synology** | Network-attached storage devices | [Synology README](synology/README.md) |
+| **SMTP/Email** | Email server monitoring with Outlook integration | [SMTP README](smtp/README.md) |
 | **Installation Scripts** | Deployment scripts for Wazuh agents | [Scripts README](scripts/README.md) |
 
 ## Directory Structure
