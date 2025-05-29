@@ -1,0 +1,112 @@
+<!-- WithSecure Decoders -->
+<decoder name="withsecure-collector">
+    <program_name>withsecure-collector</program_name>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>action="(\.+)"</regex>
+    <order>ws.action</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>alertType="(\.+)"</regex>
+    <order>ws.alertType</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>device_name="(\.+)"</regex>
+    <order>ws.device_name</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>engine="(\.+)"</regex>
+    <order>ws.engine</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>eventTransactionId="(\.+)"</regex>
+    <order>ws.event_id</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>organization_name="(\.+)"</regex>
+    <order>ws.organization_name</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>process="(\.+)"</regex>
+    <order>ws.process</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>reason="(\.+)"</regex>
+    <order>ws.reason</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>description="(\.+)"</regex>
+    <order>ws.description</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>severity="(\.+)"</regex>
+    <order>ws.severity</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>url="(\.+)"</regex>
+    <order>ws.url</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>userName="(\.+)"</regex>
+    <order>ws.userName</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>userPrincipalName="(\.+)"</regex>
+    <order>ws.userPrincipalName</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>creator="(\.+)"</regex>
+    <order>ws.creator</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>path="(\.+)"</regex>
+    <order>ws.path</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>infectionName="(\.+)"</regex>
+    <order>ws.infectionName</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>hostIpAddress="(\.+)"</regex>
+    <order>ws.hostIpAddress</order>
+</decoder>
+
+<decoder name="withsecure-fields">
+    <parent>withsecure-collector</parent>
+    <regex>throttledCount="(\.+)"</regex>
+    <order>ws.throttledCount</order>
+</decoder>

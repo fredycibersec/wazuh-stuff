@@ -1,0 +1,80 @@
+<!-- Synology Decoders -->
+
+<decoder name="synology_conn">
+  <program_name>Connection</program_name>
+</decoder>
+
+<decoder name="synology_conn_child">
+  <parent>synology_conn</parent>
+  <regex> User [(\.+)] </regex>
+  <order>user_conn</order>
+</decoder>
+
+<decoder name="synology_conn_child">
+  <parent>synology_conn</parent>
+  <regex> from [(\.+)]</regex>
+  <order>host_conn</order>
+</decoder>
+
+<decoder name="synology_conn_child">
+  <parent>synology_conn</parent>
+  <regex> accessed shared folder [(\.+)]</regex>
+  <order>event_sharedfolder</order>
+</decoder>
+
+<!-- Decoder for WinFileService events -->
+<decoder name="synology_winfile">
+  <prematch>WinFileService </prematch>
+</decoder>
+
+<decoder name="synology_winfile-child">
+  <parent>synology_winfile</parent>
+  <regex> Event: (\w+), </regex>
+  <order>event</order>
+</decoder>
+
+<decoder name="synology_winfile-child">
+  <parent>synology_winfile</parent>
+  <regex> Path: (\.*), </regex>
+  <order>path</order>
+</decoder>
+
+<decoder name="synology_winfile-child">
+  <parent>synology_winfile</parent>
+  <regex> File/Folder: (\w+), </regex>
+  <order>file</order>
+</decoder>
+
+<decoder name="synology_winfile-child">
+  <parent>synology_winfile</parent>
+  <regex> User: DOMAIN\\(\w+), </regex>
+  <order>username</order>
+</decoder>
+
+<decoder name="synology_winfile-child">
+  <parent>synology_winfile</parent>
+  <regex> IP: (\d+.\d+.\d+.\d+)</regex>
+  <order>ip</order>
+</decoder>
+
+<!-- Additional Synology System Log Decoders -->
+<decoder name="synology_system">
+  <prematch>^synologyd|^synoauth|^synofwctl|^synosystempart|^synoupgrade</prematch>
+</decoder>
+
+<decoder name="synology_auth">
+  <program_name>sshd</program_name>
+  <prematch>from=\S+@</prematch>
+</decoder>
+
+<decoder name="synology_auth_child">
+  <parent>synology_auth</parent>
+  <regex>from=\S+@(\d+.\d+.\d+.\d+)</regex>
+  <order>srcip</order>
+</decoder>
+
+<decoder name="synology_auth_child">
+  <parent>synology_auth</parent>
+  <regex>user=(\S+)</regex>
+  <order>user</order>
+</decoder>

@@ -1,0 +1,131 @@
+<!--
+  -  Windows Defender decoders
+  -  Created for Wazuh ruleset
+  -  Copyright (C) 2015-2020, Wazuh Inc.
+  -  This program is a free software; you can redistribute it and/or modify it under the terms of GPLv2.
+-->
+
+<!-- Windows Defender Decoder -->
+<decoder name="windows-defender">
+    <prematch>Microsoft-Windows-Windows Defender/Operational: \S+\(1\d\d\d\)</prematch>
+    <regex>Microsoft-Windows-Windows Defender/Operational: \S+\((\d+)\)</regex>
+    <order>id</order>
+</decoder>
+
+<!-- Windows Defender Malware Detection -->
+<decoder name="windows-defender-malware">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Windows Defender: (\S+): (\S+): (\S+): Windows Defender has detected malware</regex>
+    <order>win.account.name,win.domain,win.system.hostname</order>
+</decoder>
+
+<!-- Windows Defender Field Extraction -->
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Name: (\S+)</regex>
+    <order>win.eventdata.name</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">ID: (\S+)</regex>
+    <order>win.eventdata.id</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Severity: (\S+)</regex>
+    <order>win.eventdata.severity</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Category: (\S+)</regex>
+    <order>win.eventdata.category</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Path: (\S+)</regex>
+    <order>win.eventdata.path</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Detection Origin: (\S+)</regex>
+    <order>win.eventdata.detectionOrigin</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Detection Type: (\S+)</regex>
+    <order>win.eventdata.detectionType</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Detection Source: (\S+)</regex>
+    <order>win.eventdata.detectionSource</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">User: (\S+)</regex>
+    <order>win.eventdata.user</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Process Name: (\S+)</regex>
+    <order>win.eventdata.processName</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Action: (\S+)</regex>
+    <order>win.eventdata.action</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Action Status: (.+?)\s{2}</regex>
+    <order>win.eventdata.actionStatus</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Error Code: (\S+)</regex>
+    <order>win.eventdata.errorCode</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Error description: (.+?)\s{2}</regex>
+    <order>win.eventdata.errorDescription</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Signature Version: (\S+)</regex>
+    <order>win.eventdata.signatureVersion</order>
+</decoder>
+
+<decoder name="windows-defender-fields">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Engine Version: (\S+)</regex>
+    <order>win.eventdata.engineVersion</order>
+</decoder>
+
+<!-- Status Change Decoder -->
+<decoder name="windows-defender-status">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">Status changed from (\S+) to (\S+)</regex>
+    <order>win.eventdata.oldStatus,win.eventdata.newStatus</order>
+</decoder>
+
+<!-- Feature Change Decoder -->
+<decoder name="windows-defender-feature">
+    <parent>windows-defender</parent>
+    <regex offset="after_parent">feature (\d+) was changed from (\d+) to (\d+)</regex>
+    <order>win.eventdata.featureType,win.eventdata.oldValue,win.eventdata.newValue</order>
+</decoder>

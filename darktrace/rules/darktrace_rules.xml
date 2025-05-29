@@ -1,0 +1,82 @@
+<!-- Darktrace Rules -->
+
+<group name="Darktrace">
+
+    <rule id="119000" level="12">
+      <decoded_as>Darktrace</decoded_as>
+      <description>Darktrace Alerts</description>
+    </rule>
+
+    <rule id="119001" level="12">
+      <decoded_as>Darktrace-Model</decoded_as>
+      <description>Darktrace Model Breach</description>
+    </rule>
+
+    <rule id="119002" level="12">
+      <decoded_as>Darktrace-Audit</decoded_as>
+      <description>Darktrace Auditory</description>
+    </rule>
+
+    <!-- Additional detailed rules -->
+    <rule id="119010" level="14">
+      <if_sid>119000</if_sid>
+      <field name="severity">^critical$|^high$</field>
+      <description>Darktrace: Critical/High severity alert - $(alert.description)</description>
+      <mitre>
+        <id>T1071</id>
+        <id>T1190</id>
+      </mitre>
+      <group>pci_dss_10.6.1,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+    <rule id="119011" level="10">
+      <if_sid>119000</if_sid>
+      <field name="severity">^medium$</field>
+      <description>Darktrace: Medium severity alert - $(alert.description)</description>
+      <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+    <rule id="119012" level="7">
+      <if_sid>119000</if_sid>
+      <field name="severity">^low$</field>
+      <description>Darktrace: Low severity alert - $(alert.description)</description>
+      <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+    <rule id="119020" level="14">
+      <if_sid>119001</if_sid>
+      <field name="breach.score">^9\d$|^100$</field>
+      <description>Darktrace: Critical model breach (score: $(breach.score)) - $(breach.model)</description>
+      <mitre>
+        <id>T1071</id>
+        <id>T1190</id>
+      </mitre>
+      <group>pci_dss_10.6.1,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+    <rule id="119021" level="12">
+      <if_sid>119001</if_sid>
+      <field name="breach.score">^[7-8]\d$</field>
+      <description>Darktrace: High model breach (score: $(breach.score)) - $(breach.model)</description>
+      <mitre>
+        <id>T1071</id>
+        <id>T1190</id>
+      </mitre>
+      <group>pci_dss_10.6.1,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+    <rule id="119022" level="10">
+      <if_sid>119001</if_sid>
+      <field name="breach.score">^[4-6]\d$</field>
+      <description>Darktrace: Medium model breach (score: $(breach.score)) - $(breach.model)</description>
+      <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+    <rule id="119023" level="7">
+      <if_sid>119001</if_sid>
+      <field name="breach.score">^[1-3]\d$</field>
+      <description>Darktrace: Low model breach (score: $(breach.score)) - $(breach.model)</description>
+      <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+    </rule>
+
+</group>

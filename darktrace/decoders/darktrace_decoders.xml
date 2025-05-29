@@ -1,0 +1,37 @@
+<!-- Darktrace Decoders -->
+
+<decoder name="Darktrace">
+  <prematch>darktrace</prematch>
+</decoder>
+
+<decoder name="Darktrace-Audit">
+  <prematch>darktrace_audit</prematch>
+</decoder>
+
+<decoder name="Darktrace-Model">
+  <prematch>model_breach</prematch>
+</decoder>
+
+<decoder name="Darktrace-Alert">
+  <parent>Darktrace</parent>
+  <prematch>darktrace </prematch>
+  <plugin_decoder offset="after_prematch">JSON_Decoder</plugin_decoder>
+</decoder>
+
+<decoder name="Darktrace-Auditor">
+  <parent>Darktrace-Audit</parent>
+  <prematch>darktrace_audit</prematch>
+  <plugin_decoder offset="after_prematch">JSON_Decoder</plugin_decoder>
+</decoder>
+
+<decoder name="Darktrace-Breach">
+  <parent>Darktrace-Model</parent>
+  <prematch>model-breach</prematch>
+  <plugin_decoder offset="after_prematch">JSON_Decoder</plugin_decoder>
+</decoder>
+
+<decoder name="Darktrace-Trigger">
+  <parent>Darktrace</parent>
+  <prematch>triggeredComponents</prematch>
+  <plugin_decoder offset="after_prematch">JSON_Decoder</plugin_decoder>
+</decoder>

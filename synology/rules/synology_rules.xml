@@ -1,0 +1,102 @@
+<!-- Ruleset for Synology -->
+
+<group name="synology,">
+
+  <rule id="130000" level="3">
+    <decoded_as>synology_conn</decoded_as>
+    <description>Synology log detected.</description>
+  </rule>
+
+  <rule id="130001" level="7">
+    <decoded_as>synology_winfile</decoded_as>
+    <description>Synology file event detected.</description>
+  </rule>
+
+  <rule id="130002" level="11">
+    <if_sid>130001</if_sid>
+    <field name="event">delete</field>
+    <description>Synology: file deletion detected.</description>
+    <group>syno_del,file_deletion,</group>
+    <mitre>
+      <id>T1485</id>
+    </mitre>
+  </rule>
+
+  <rule id="130003" level="10">
+    <if_sid>130001</if_sid>
+    <field name="event">rename</field>
+    <description>Synology: file rename detected.</description>
+    <group>syno_ren,file_modification,</group>
+    <mitre>
+      <id>T1036</id>
+    </mitre>
+  </rule>
+
+  <!-- Extended Synology Rules -->
+  <rule id="130004" level="10">
+    <if_sid>130001</if_sid>
+    <field name="event">write</field>
+    <description>Synology: file write detected.</description>
+    <group>syno_write,file_modification,</group>
+  </rule>
+
+  <rule id="130005" level="7">
+    <if_sid>130001</if_sid>
+    <field name="event">read</field>
+    <description>Synology: file read detected.</description>
+    <group>syno_read,file_access,</group>
+  </rule>
+
+  <rule id="130006" level="12">
+    <if_sid>130001</if_sid>
+    <field name="event">permission</field>
+    <description>Synology: file permission change detected.</description>
+    <group>syno_perm,file_modification,</group>
+    <mitre>
+      <id>T1222</id>
+    </mitre>
+  </rule>
+
+  <rule id="130010" level="3">
+    <decoded_as>synology_system</decoded_as>
+    <description>Synology system event detected.</description>
+    <group>synology_system,</group>
+  </rule>
+
+  <rule id="130011" level="7">
+    <decoded_as>synology_auth</decoded_as>
+    <description>Synology authentication event detected.</description>
+    <group>synology_authentication,</group>
+  </rule>
+
+  <rule id="130012" level="10">
+    <if_sid>130011</if_sid>
+    <match>authentication failure</match>
+    <description>Synology: failed authentication attempt from $(srcip).</description>
+    <group>authentication_failure,</group>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+  </rule>
+
+  <rule id="130013" level="12" frequency="5" timeframe="120">
+    <if_sid>130012</if_sid>
+    <same_source_ip />
+    <description>Synology: multiple authentication failures from $(srcip).</description>
+    <group>authentication_failures,brute_force,</group>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+  </rule>
+
+  <rule id="130020" level="12">
+    <if_sid>130000</if_sid>
+    <match>unauthorized access</match>
+    <description>Synology: unauthorized access attempt.</description>
+    <group>access_denied,</group>
+    <mitre>
+      <id>T1078</id>
+    </mitre>
+  </rule>
+
+</group>

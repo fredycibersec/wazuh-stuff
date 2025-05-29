@@ -1,0 +1,111 @@
+<group name="withsecure,">
+  <!-- Base withsecure rule -->
+  <rule id="110100" level="3">
+    <decoded_as>withsecure-collector</decoded_as>
+    <description>WithSecure: Event detected - $(ws.organization_name)</description>
+  </rule>
+
+  <!-- WithSecure high severity events -->
+  <rule id="110101" level="15">
+    <if_sid>110100</if_sid>
+    <field name="severity">^critical$|^high$</field>
+    <description>WithSecure: High severity event - Type: $(ws.alertType) - Device: $(ws.device_name)</description>
+    <group>pci_dss_10.6.1,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- WithSecure medium/warning severity events -->
+  <rule id="110102" level="8">
+    <if_sid>110100</if_sid>
+    <field name="severity">^warning$|^medium$</field>
+    <description>WithSecure: Medium severity event - Type: $(ws.alertType) - Device: $(ws.device_name)</description>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- WithSecure blocked events -->
+  <rule id="110103" level="13">
+    <if_sid>110100</if_sid>
+    <field name="withsecure.field_name">^action$</field>
+    <field name="withsecure.field_value">^blocked$</field>
+    <description>WithSecure: Blocked event - Type: $(ws.alertType) - Process: $(ws.process) - Reason: $(ws.description)</description>
+    <group>pci_dss_10.6.1,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- WithSecure harmful page blocks -->
+  <rule id="110104" level="8">
+    <if_sid>110100</if_sid>
+    <field name="alertType">^online_safety\.harmful_page\.block$</field>
+    <description>WithSecure: Harmful webpage blocked - URL: $(ws.url) - User: $(ws.userName) - Device: $(ws.device_name)</description>
+    <mitre>
+        <id>T1189</id>
+        <id>T1566.002</id>
+    </mitre>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- WithSecure reputation-based browsing blocks -->
+  <rule id="110105" level="8">
+    <if_sid>110100</if_sid>
+    <field name="engine">^reputationBasedBrowsing$</field>
+    <description>WithSecure: Reputation-based browsing protection - URL: $(ws.url) - Process: $(ws.process) - User: $(ws.userName)</description>
+    <mitre>
+        <id>T1071</id>
+        <id>T1071.001</id>
+    </mitre>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- WithSecure malware detection -->
+  <rule id="110110" level="12">
+    <if_sid>110100</if_sid>
+    <field name="alertType">^malware\.|\.malware\.</field>
+    <description>WithSecure: Malware detected - Process: $(ws.process) - Device: $(ws.device_name) - User: $(ws.userName)</description>
+    <mitre>
+        <id>T1190</id>
+        <id>T1204.002</id>
+    </mitre>
+    <group>pci_dss_5.1,pci_dss_5.2,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.3,</group>
+  </rule>
+
+  <!-- WithSecure suspicious execution -->
+  <rule id="110111" level="10">
+    <if_sid>110100</if_sid>
+    <field name="alertType">^suspicious_execution\.|\.suspicious\.</field>
+    <description>WithSecure: Suspicious execution detected - Process: $(ws.process) - Device: $(ws.device_name) - User: $(ws.userName)</description>
+    <mitre>
+        <id>T1204</id>
+        <id>T1204.002</id>
+    </mitre>
+    <group>pci_dss_10.6.1,pci_dss_11.4,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- High throttle count events -->
+  <rule id="110140" level="10">
+    <if_sid>110100</if_sid>
+    <field name="throttledCount">^[2-9][0-9]+|^[0-9]{3,}$</field>
+    <description>WithSecure: High frequency of similar events ($(ws.throttledCount) occurrences) - Type: $(ws.alertType) - Device: $(ws.device_name)</description>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- Specific Engine Events -->
+  <rule id="110150" level="8">
+    <if_sid>110100</if_sid>
+    <field name="engine">^deepguard$</field>
+    <description>WithSecure: DeepGuard protection event - Type: $(ws.alertType) - Process: $(ws.process) - User: $(ws.userName)</description>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- New User Context Event -->
+  <rule id="110160" level="8">
+    <if_sid>110100</if_sid>
+    <field name="userPrincipalName">\.+</field>
+    <description>WithSecure: Security event for user $(ws.userPrincipalName) - Type: $(ws.alertType) - Device: $(ws.device_name)</description>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+
+  <!-- Generic event catch-all with enhanced context -->
+  <rule id="110190" level="5">
+    <if_sid>110100</if_sid>
+    <description>WithSecure: Security event - Engine: $(ws.engine) - Device: $(ws.device_name) - Organization: $(ws.organization_name)</description>
+    <group>pci_dss_10.6.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_SI.4,</group>
+  </rule>
+</group>

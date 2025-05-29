@@ -1,0 +1,173 @@
+<!-- Kaspersky Decoder -->
+
+<decoder name="Kaspersky">
+  <prematch>^CEF:0\|KasperskyLab\|SecurityCenter</prematch>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>dhost=(\S+)</regex>
+  <order>dhost</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>dst=(\d+.\d+.\d+.\d+:\d+)|dst=(\d+.\d+.\d+.\d+)</regex>
+  <order>dstip</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>TCP from (\d+.\d+.\d+.\d+:\d+)|TCP from (\d+.\d+.\d+.\d+)</regex>
+  <order>srcip</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>TCP de (\d+.\d+.\d+.\d+:\d+)|TCP de (\d+.\d+.\d+.\d+)</regex>
+  <order>srcip</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>local port (\d+)</regex>
+  <order>dstport</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>duser=(\S+)</regex>
+  <order>duser</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>Usuario:     (\S+)</regex>
+  <order>duser</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>msg=(.+) act=</regex>
+  <order>data.Kaspersky.description</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>act=(\S+)</regex>
+  <order>data.Kaspersky.action</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>agt=(\S+)</regex>
+  <order>data.Kaspersky.agent</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cn1=(\S+)</regex>
+  <order>data.Kaspersky.cn1</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cn1Label=(\S+)</regex>
+  <order>data.Kaspersky.cn1Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs1=(.+) cs1Label=</regex>
+  <order>data.Kaspersky.cs1</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs1Label=(.+) cs2=</regex>
+  <order>data.Kaspersky.cs1Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs2=(.+) cs2Label=</regex>
+  <order>data.Kaspersky.cs2</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs2Label=(.+) cs3=</regex>
+  <order>data.Kaspersky.cs2Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs3=(.+) cs3Label=</regex>
+  <order>data.Kaspersky.cs3</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs3Label=(.+) cs4=</regex>
+  <order>data.Kaspersky.cs3Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs4=(.+) cs4Label=</regex>
+  <order>data.Kaspersky.cs4</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs4Label=(.+) cs5=</regex>
+  <order>data.Kaspersky.cs4Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs5=(.+) cs5Label=</regex>
+  <order>data.Kaspersky.cs5</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs5Label=(\S+)</regex>
+  <order>data.Kaspersky.cs5Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs6=(.+) cs6Label=</regex>
+  <order>data.Kaspersky.cs6</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs6Label=(\S+)</regex>
+  <order>data.Kaspersky.cs6Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs7=(.+) cs7Label=</regex>
+  <order>data.Kaspersky.cs7</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs7Label=(\S+)</regex>
+  <order>Kaspersky.cs7Label</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+  <parent>Kaspersky</parent>
+  <regex>cs9=(\S+)</regex>
+  <order>Kaspersky.cs9</order>
+</decoder>
+
+<decoder name="Kaspersky-fields">
+ <parent>Kaspersky</parent>
+ <regex>cs10=(\.+) cs10Label=</regex>
+ <order>Kaspersky.cs10</order>
+</decoder>

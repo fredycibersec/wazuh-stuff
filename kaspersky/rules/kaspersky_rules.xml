@@ -1,0 +1,107 @@
+<!-- Kaspersky Rules -->
+
+<group name="kaspersky,">
+
+  <rule id="120090" level="0">
+    <match>KasperskyLab</match>
+    <decoded_as>Kaspersky</decoded_as>
+    <description>$(data.Kaspersky.description)</description>
+  </rule>
+
+  <rule id="120092" level="3">
+    <if_sid>120090</if_sid>
+    <match>attack</match>
+    <description>Kaspersky: Attack detected</description>
+    <group>attack,</group>
+  </rule>
+
+  <rule id="120093" level="3">
+    <if_sid>120090</if_sid>
+    <match>detected</match>
+    <description>Kaspersky: Object detected</description>
+    <group>detected_attack,</group>
+  </rule>
+
+  <rule id="120095" level="12">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_ATTACK_DETECTED</match>
+    <description>Kaspersky: Attack detected - $(data.Kaspersky.description)</description>
+    <group>attack,</group>
+    <mitre>
+      <id>T1204</id>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+
+  <rule id="120096" level="12">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_VIRUS_FOUND|KLPRCI_EventVirFound</match>
+    <description>Kaspersky: Virus found - $(data.Kaspersky.description)</description>
+    <group>virus,</group>
+    <mitre>
+      <id>T1204</id>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+
+  <rule id="120097" level="12">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_OBJECT_BLOCKED|GNRL_EV_OBJECT_QUARANTINED|GNRL_EV_OBJECT_DELETED</match>
+    <description>Kaspersky: Malicious object blocked - $(data.Kaspersky.description)</description>
+    <group>virus,</group>
+    <mitre>
+      <id>T1204</id>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+
+  <rule id="120098" level="8">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_LICENSE_EXPIRATION</match>
+    <description>Kaspersky: License expiration warning - $(data.Kaspersky.description)</description>
+    <group>system_error,</group>
+  </rule>
+
+  <rule id="120099" level="12">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_SUSPICIOUS_OBJECT_FOUND</match>
+    <description>Kaspersky: Suspicious object found - $(data.Kaspersky.description)</description>
+    <group>virus,</group>
+    <mitre>
+      <id>T1204</id>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+  
+  <rule id="120100" level="10">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_INTRUSION_DETECTED</match>
+    <description>Kaspersky: Intrusion detected - $(data.Kaspersky.description)</description>
+    <group>intrusion,</group>
+    <mitre>
+      <id>T1190</id>
+    </mitre>
+  </rule>
+
+  <rule id="120101" level="10">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_DONE_OBJECT_INFECTED</match>
+    <description>Kaspersky: Object infected - $(data.Kaspersky.description)</description>
+    <group>virus,</group>
+    <mitre>
+      <id>T1204</id>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+
+  <rule id="120102" level="8">
+    <if_sid>120090</if_sid>
+    <match>GNRL_EV_SUSPICIOUS_ACTIVITY_DETECTED</match>
+    <description>Kaspersky: Suspicious activity detected - $(data.Kaspersky.description)</description>
+    <group>suspicious_behavior,</group>
+    <mitre>
+      <id>T1204</id>
+    </mitre>
+  </rule>
+
+</group>
