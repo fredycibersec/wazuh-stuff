@@ -1,0 +1,7 @@
+Connection: User [admin] from [192.168.1.100] accessed shared folder [public]
+Connection: User [jdoe] from [10.0.0.25] accessed shared folder [projects]
+WinFileService Event: OPEN, Path: /volume1/shared/, File/Folder: presentation.pptx, User: DOMAIN\user1, IP: 192.168.1.55
+WinFileService Event: CREATE, Path: /volume1/documents/, File/Folder: report.docx, User: DOMAIN\user2, IP: 192.168.1.75
+May 16 12:34:56 nas01 sshd[1234]: from=user@192.168.1.22 user=admin
+May 16 14:22:33 nas01 sshd[1235]: from=root@203.0.113.100 user=root
+

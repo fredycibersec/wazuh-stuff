@@ -1,0 +1,29 @@
+Jun 09 06:12:34 nas01 Connection: User [backdoor_account] from [185.76.9.45] accessed shared folder [executive_files]
+Jun 09 06:13:22 nas01 Connection: User [backdoor_account] from [185.76.9.45] accessed shared folder [financial_data]
+Jun 09 06:14:05 nas01 Connection: User [backdoor_account] from [185.76.9.45] accessed shared folder [strategic_plans]
+
+Jun 09 06:45:12 nas01 WinFileService Event: OPEN, Path: /volume1/financial_data/, File/Folder: Q2_acquisition_plans.xlsx, User: DOMAIN\backdoor_account, IP: 185.76.9.45
+Jun 09 06:45:34 nas01 WinFileService Event: READ, Path: /volume1/financial_data/, File/Folder: Q2_acquisition_plans.xlsx, User: DOMAIN\backdoor_account, IP: 185.76.9.45
+Jun 09 06:46:15 nas01 WinFileService Event: CREATE, Path: /volume1/financial_data/, File/Folder: .hidden_script.php, User: DOMAIN\backdoor_account, IP: 185.76.9.45
+
+Jun 09 07:12:45 nas01 sshd[5432]: from=unknown_user@185.76.9.45 user=root
+Jun 09 07:12:46 nas01 synoauth: auth_login: Failed login for user "root" via SSH from IP [185.76.9.45] (SSH brute-force attempt from APT28 known IP range, blocked after 5 attempts)
+
+Jun 09 08:23:55 nas01 synosystempart: Unusual disk activity detected: high I/O sustained for past 10 minutes (possible data staging for exfiltration)
+Jun 09 08:25:02 nas01 synofwctl: Multiple outbound connections to suspicious IP range [194.180.85.0/24] blocked (matches APT41 C2 infrastructure)
+
+Jun 09 09:35:12 nas01 WinFileService Event: CREATE, Path: /volume1/shared/, File/Folder: service_update.bat, User: DOMAIN\admin, IP: 192.168.1.155
+Jun 09 09:35:45 nas01 WinFileService Event: MODIFY, Path: /volume1/shared/, File/Folder: service_update.bat, User: DOMAIN\admin, IP: 192.168.1.155
+
+Jun 09 10:12:33 nas01 synologyd[1234]: [Antivirus] Detected malware: APT29.dropbox.exe in /volume1/backups/automated/ (Attribution: Russian SVR, campaign: CloudPinch)
+Jun 09 10:12:34 nas01 synologyd[1234]: [Antivirus] File deleted: /volume1/backups/automated/APT29.dropbox.exe
+
+Jun 09 11:45:23 nas01 Connection: User [admin] from [192.168.1.155] accessed shared folder [system_backups]
+Jun 09 11:45:55 nas01 WinFileService Event: CREATE, Path: /volume1/system_backups/, File/Folder: backup_script.vbs, User: DOMAIN\admin, IP: 192.168.1.155
+Jun 09 11:46:02 nas01 synologyd[1234]: [Antivirus] Detected malware: UNC2452.TEARDROP.loader in /volume1/system_backups/backup_script.vbs (Attribution: NOBELIUM)
+
+Jun 09 13:22:45 nas01 synoupgrade: [Security Advisory] Critical vulnerability CVE-2025-12345 patched in DSM 7.3.2-64570. System requires immediate update to prevent exploitation by APT groups
+
+Jun 09 15:34:56 nas01 synofwctl: Blocked suspicious connection attempt from [203.14.58.92] targeting management port 5000 (matches HAFNIUM scanning pattern)
+Jun 09 15:35:12 nas01 synofwctl: Multiple blocked connection attempts from [203.14.58.92] targeting ports 5000,5001,80,443 (automated exploitation attempt, possible zero-day)
+
