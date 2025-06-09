@@ -1,0 +1,21 @@
+Microsoft-Windows-Windows Defender/Operational: Log(1111)
+Windows Defender: SERVER1: CONTOSO: windows Defender has detected malware
+Name: Trojan:Win32/Wacatac.H!ml
+ID: 54236
+Severity: High
+Category: Malware
+Path: C:\ProgramData\malware.exe
+Detection Origin: Local
+Detection Type: Behavior
+Detection Source: Real-Time Protection
+User: Administrator
+Process Name: powershell.exe
+Action: Removed
+Action Status: Success
+Error Code: -
+Error description: -
+Signature Version: 1.321.45.0
+Engine Version: 1.1.17700.4
+Status changed from Active to Inactive
+feature 100 was changed from 1 to 2
+

@@ -1,0 +1,100 @@
+Microsoft-Windows-Windows Defender/Operational: Log(1116)
+Windows Defender: CORPDC01: ACME: CORPDC01 Windows Defender has detected malware
+Name: SUNBURST.Backdoor
+ID: 2025060901
+Severity: Critical
+Category: APT
+Path: C:\Windows\SysWOW64\netsetupsvc.dll
+Detection Origin: Network
+Detection Type: Behavior
+Detection Source: Microsoft Defender ATP
+User: NT AUTHORITY\SYSTEM
+Process Name: svchost.exe
+Action: Quarantined
+Action Status: Success  
+Signature Version: 1.371.42.0
+Engine Version: 1.1.19800.5
+APT Attribution: NOBELIUM
+Threat Intelligence: High confidence match with known SUNBURST indicators
+MITRE ATT&CK: T1195.002 - Supply Chain Compromise
+
+Microsoft-Windows-Windows Defender/Operational: Log(1117)
+Windows Defender: FILESVR04: ACME: FILESVR04 Windows Defender has detected malware
+Name: Cobalt.Strike.Beacon
+ID: 2025060902
+Severity: Critical
+Category: APT
+Path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\svcupdate.exe
+Detection Origin: Local
+Detection Type: Signature
+Detection Source: Microsoft Defender ATP
+User: Administrator
+Process Name: powershell.exe
+Action: Blocked
+Action Status: Success  
+Signature Version: 1.371.42.0
+Engine Version: 1.1.19800.5
+APT Attribution: APT41
+Threat Intelligence: Medium confidence - matches Cobalt Strike C2 communication patterns
+MITRE ATT&CK: T1059.001 - PowerShell
+
+Microsoft-Windows-Windows Defender/Operational: Log(1118)
+Windows Defender: WORKSTATION-HR5: ACME: WORKSTATION-HR5 Windows Defender has detected malware
+Name: APT29.DropBox
+ID: 2025060903
+Severity: High
+Category: APT
+Path: C:\Users\jsmith\AppData\Local\Temp\report_june_2025.doc
+Detection Origin: Email
+Detection Type: Behavior
+Detection Source: Microsoft Defender ATP
+User: ACME\jsmith
+Process Name: WINWORD.EXE
+Action: Blocked
+Action Status: Success  
+Signature Version: 1.371.42.0
+Engine Version: 1.1.19800.5
+APT Attribution: APT29
+Threat Intelligence: High confidence - matches known APT29 droppers
+MITRE ATT&CK: T1566.001 - Phishing: Spearphishing Attachment
+
+Microsoft-Windows-Windows Defender/Operational: Log(1119)
+Windows Defender: EXECPC12: ACME: EXECPC12 Windows Defender has detected suspicious activity
+Name: HAFNIUM.WebShell
+ID: 2025060904
+Severity: Critical
+Category: APT
+Path: C:\inetpub\wwwroot\aspnet_client\system_web\log.aspx
+Detection Origin: Local
+Detection Type: Behavior
+Detection Source: Microsoft Defender ATP
+User: NT AUTHORITY\NETWORK SERVICE
+Process Name: w3wp.exe
+Action: Quarantined
+Action Status: Success  
+Signature Version: 1.371.42.0
+Engine Version: 1.1.19800.5
+APT Attribution: HAFNIUM
+Threat Intelligence: High confidence - matches known Exchange webshell patterns
+MITRE ATT&CK: T1505.003 - Server Software Component: Web Shell
+
+Microsoft-Windows-Windows Defender/Operational: Log(1120)
+Windows Defender: SQL01: ACME: SQL01 Windows Defender has detected suspicious activity
+Name: Lazarus.RAT
+ID: 2025060905
+Severity: High
+Category: APT
+Path: C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Backup\sqlbackup.exe
+Detection Origin: Local
+Detection Type: Machine Learning
+Detection Source: Microsoft Defender ATP
+User: MSSQLSERVER
+Process Name: sqlservr.exe
+Action: Quarantined
+Action Status: Success  
+Signature Version: 1.371.42.0
+Engine Version: 1.1.19800.5
+APT Attribution: Lazarus Group
+Threat Intelligence: Medium confidence - behavioral patterns match known Lazarus tools
+MITRE ATT&CK: T1055 - Process Injection
+
