@@ -8,6 +8,54 @@ This integration enables Wazuh to ingest, analyze, and alert on security events 
 
 - **Decoders**: `decoders/darktrace_decoders.xml`
 - **Rules**: `rules/darktrace_rules.xml`
+- **Demo logs**: `Sample log files for testing decoders and rules`
+
+## Demo Logs
+The `Demo logs/` directory contains sample logs that simulate real WithSecure alerts:
+
+### withsecure_events.log
+Basic WithSecure security alerts including:
+- Malware detection and blocking
+- Ransomware prevention events
+- Suspicious behavior monitoring
+- Application control logs
+
+### withsecure_apt_detections.log
+Advanced APT (Advanced Persistent Threat) detection logs including:
+
+- **SANDWORM**: Targeted email attachment with ELECTRUM payload, attributed to Russian state actors targeting industrial systems
+- **GALLIUM**: Webshell detected in IIS web application, Chinese state actor targeting telecommunications
+- **APT10/MENUPASS**: Credential dumping attempt using PlugX variant, attributed to Chinese threat actors
+- **KIMSUKY**: Command & Control communication to malicious domain from developer workstation, North Korean actor
+- **HAFNIUM**: Data exfiltration attempt from database server using China Chopper webshell
+- **CARBON SPIDER**: DARKSIDE ransomware deployment attempt through PowerShell, financially motivated threat group
+
+Each log entry includes enriched data such as:
+- Actions taken (blocked, quarantined)
+- Alert types and severity
+- Device and organization information
+- Process details and file paths
+- Malware identification
+- MITRE ATT&CK technique references
+- Attack stage information
+- Threat actor attribution
+- Campaign identification
+- Confidence scores
+
+## Usage
+1. Deploy the decoders to your Wazuh installation
+2. Deploy the corresponding rules
+3. Configure WithSecure to forward logs to Wazuh
+4. Test using the provided demo logs
+
+## Log Format
+WithSecure logs follow this general format:
+
+```
+timestamp hostname withsecure-collector[process_id]: key="value" key="value"...
+```
+
+The decoders in this directory are designed to parse these formats and extract relevant fields for rule matching.
 
 ## Installation
 
