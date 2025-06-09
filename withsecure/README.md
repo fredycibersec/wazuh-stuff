@@ -113,7 +113,19 @@ The decoders in this directory are designed to parse these formats and extract r
 | 110190  | 5     | Generic events catch-all |
 
 ## Field Mapping
+The decoders extract the following fields from WithSecure events:
 
-The decoders extract fields from WithSecure events like `ws.action`, `ws.alertType`, `ws.device_name`, etc.
+- `ws.action`: Action taken by WithSecure
+- `ws.alertType`: Type of alert
+- `ws.device_name`: Name of the affected device
+- `ws.engine`: WithSecure engine information
+- `ws.event_id`: Event transaction ID
+- `ws.organization_name`: Organization name
+- `ws.process`: Process involved
+- `ws.reason`: Reason for alert
+- `ws.description`: Detailed description
+- `ws.severity`: Severity level
+- `ws.userName`: User affected
+- Various other fields including infection details and host information
 
 Made with ❤️ by SaruMan
