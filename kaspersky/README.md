@@ -1,13 +1,56 @@
 # Kaspersky Integration for Wazuh
 
 ## Overview
+This directory contains decoders, rules, and demo logs for integrating Kaspersky security events into Wazuh SIEM. Kaspersky offers advanced threat protection and endpoint security solutions for enterprises.
 
-This integration allows Wazuh to collect, analyze, and alert on security events from Kaspersky Endpoint Security and Kaspersky Security Center. The integration provides comprehensive visibility into threats detected by Kaspersky products, including viruses, suspicious activities, attacks, and system status events.
+## Directory Structure
+- `decoders/`: Contains XML decoder files for parsing Kaspersky logs
+- `rules/`: Contains XML rule files for alerting on Kaspersky events
+- `Demo logs/`: Sample log files for testing decoders and rules
 
-## Files Included
+## Demo Logs
+The `Demo logs/` directory contains sample logs that simulate real Kaspersky alerts:
 
-- **Decoders**: `decoders/kaspersky_decoders.xml`
-- **Rules**: `rules/kaspersky_rules.xml`
+### kaspersky_security.log
+Basic Kaspersky security alerts including:
+- Virus detection events
+- Network attack blocking
+- Application control events
+- Suspicious activity monitoring
+
+### kaspersky_apt_threats.log
+Advanced APT (Advanced Persistent Threat) detection logs including:
+
+- **TURLA/SNAKE**: Memory implant detected in Exchange server processes, attributed to Russian state actors
+- **DRAGONFLY/ENERGETIC BEAR**: Data exfiltration attempt from R&D workstation, Russian APT group targeting energy sector
+- **APT41 POISONPLUG**: Supply chain compromise via backdoored library in Jenkins build server
+- **LAZARUS**: DCSync attack for credential theft, attributed to North Korean actors
+- **WIZARD SPIDER/RYUK**: Credential harvesting tools detected, financially motivated threat actor
+- **FIN7**: Fileless malware utilizing Windows PowerShell, targeting finance department
+
+Each log entry includes enriched data such as:
+- Detailed APT group attribution
+- MITRE ATT&CK technique references
+- Threat scores and risk levels
+- Detection methods
+- Process information
+- Action taken (blocked, quarantined)
+- Timestamps of detection
+
+## Usage
+1. Deploy the decoders to your Wazuh installation
+2. Deploy the corresponding rules
+3. Configure Kaspersky to forward logs to Wazuh
+4. Test using the provided demo logs
+
+## Log Format
+Kaspersky logs follow the Common Event Format (CEF):
+
+```
+CEF:0|KasperskyLab|SecurityCenter|VERSION|EVENT_TYPE|EVENT_NAME|SEVERITY|key1=value1 key2=value2...
+```
+
+The decoders in this directory are designed to parse these formats and extract relevant fields for rule matching.
 
 ## Installation
 
