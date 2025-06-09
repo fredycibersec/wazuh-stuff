@@ -1,61 +1,64 @@
 # Darktrace Integration for Wazuh
 
 ## Overview
+This directory contains decoders, rules, and demo logs for integrating Darktrace security alerts into Wazuh SIEM. Darktrace is an AI-based cyber defense platform that detects and responds to emerging threats using machine learning.
 
-This integration enables Wazuh to ingest, analyze, and alert on security events from Darktrace's Enterprise Immune System. The integration provides visibility into Darktrace's AI-based anomaly detection and allows security teams to respond to threats detected by Darktrace through the Wazuh platform.
-
-## Files Included
-
-- **Decoders**: `decoders/darktrace_decoders.xml`
-- **Rules**: `rules/darktrace_rules.xml`
-- **Demo logs**: `Sample log files for testing decoders and rules`
+## Directory Structure
+- `decoders/`: Contains XML decoder files for parsing Darktrace logs
+- `rules/`: Contains XML rule files for alerting on Darktrace events
+- `Demo logs/`: Sample log files for testing decoders and rules
 
 ## Demo Logs
-The `Demo logs/` directory contains sample logs that simulate real WithSecure alerts:
+The `Demo logs/` directory contains sample logs that simulate real Darktrace alerts:
 
-### withsecure_events.log
-Basic WithSecure security alerts including:
-- Malware detection and blocking
-- Ransomware prevention events
-- Suspicious behavior monitoring
-- Application control logs
+### darktrace_alert.log
+Basic Darktrace alerts including:
+- Suspicious connection detection
+- Lateral movement alerts
+- Configuration audit events
+- Model breach notifications
 
-### withsecure_apt_detections.log
+### darktrace_apt_activity.log
 Advanced APT (Advanced Persistent Threat) detection logs including:
-
-- **SANDWORM**: Targeted email attachment with ELECTRUM payload, attributed to Russian state actors targeting industrial systems
-- **GALLIUM**: Webshell detected in IIS web application, Chinese state actor targeting telecommunications
-- **APT10/MENUPASS**: Credential dumping attempt using PlugX variant, attributed to Chinese threat actors
-- **KIMSUKY**: Command & Control communication to malicious domain from developer workstation, North Korean actor
-- **HAFNIUM**: Data exfiltration attempt from database server using China Chopper webshell
-- **CARBON SPIDER**: DARKSIDE ransomware deployment attempt through PowerShell, financially motivated threat group
+- **APT28 (Fancy Bear)**: Command and Control communication detection
+- **NOBELIUM**: Data exfiltration to known malicious infrastructure
+- **STONE PANDA**: Unusual admin credential use and lateral movement
+- **VENOMOUS BEAR (Turla)**: Suspicious RDP connection chains
+- **EMBER BEAR**: Data staging activity for potential exfiltration
 
 Each log entry includes enriched data such as:
-- Actions taken (blocked, quarantined)
-- Alert types and severity
-- Device and organization information
-- Process details and file paths
-- Malware identification
 - MITRE ATT&CK technique references
-- Attack stage information
 - Threat actor attribution
-- Campaign identification
+- Attack phase identification
 - Confidence scores
+- Affected systems and data
 
 ## Usage
 1. Deploy the decoders to your Wazuh installation
 2. Deploy the corresponding rules
-3. Configure WithSecure to forward logs to Wazuh
+3. Configure Darktrace to forward logs to Wazuh
 4. Test using the provided demo logs
 
 ## Log Format
-WithSecure logs follow this general format:
+Darktrace logs follow several formats depending on the event type:
 
-```
-timestamp hostname withsecure-collector[process_id]: key="value" key="value"...
-```
+1. **Alert events**:
+   ```
+   timestamp hostname darktrace {JSON alert data}
+   ```
+
+2. **Audit events**:
+   ```
+   timestamp hostname darktrace_audit {JSON audit data}
+   ```
+
+3. **Model breach events**:
+   ```
+   timestamp hostname model-breach {JSON model data}
+   ```
 
 The decoders in this directory are designed to parse these formats and extract relevant fields for rule matching.
+
 
 ## Installation
 
