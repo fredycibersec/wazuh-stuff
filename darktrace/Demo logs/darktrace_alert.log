@@ -1,0 +1,5 @@
+May 15 12:34:56 server1 darktrace {"alert":"Suspicious Connection","timestamp":"2023-05-15T12:34:56Z","severity":"high","source_ip":"192.168.1.100","destination_ip":"203.0.113.45","destination_port":22,"protocol":"SSH","description":"Unusual outbound SSH connection detected"}
+May 15 13:22:18 server1 darktrace {"alert":"Lateral Movement","timestamp":"2023-05-15T13:22:18Z","severity":"critical","source_ip":"192.168.1.105","destination_ip":"192.168.1.200","destination_port":445,"protocol":"SMB","description":"Potential lateral movement detected via SMB"}
+May 15 14:05:31 server1 darktrace_audit {"user":"admin","action":"configuration_change","timestamp":"2023-05-15T14:05:31Z","details":"Modified alert threshold settings","success":true}
+May 15 15:18:45 server1 model-breach {"model":"Data Exfiltration","timestamp":"2023-05-15T15:18:45Z","severity":"high","device":"fileserver01","ip":"192.168.1.50","details":"Unusual data transfer volume to external IP"}
+
