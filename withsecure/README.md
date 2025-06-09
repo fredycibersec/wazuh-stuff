@@ -1,16 +1,63 @@
 # WithSecure Integration for Wazuh
 
 ## Overview
-
-This integration allows Wazuh to collect, parse, and alert on security events from WithSecure's endpoint protection platform.
+This directory contains decoders, rules, and demo logs for integrating WithSecure (formerly F-Secure) security events into Wazuh SIEM. WithSecure offers enterprise-grade endpoint protection and advanced threat detection solutions.
 
 ## Files Included
 
-- **Decoders**: `decoders/withsecure_decoders.xml`
-- **Rules**: `rules/withsecure_rules.xml`
+- **Decoders**: `Contains XML decoder files for parsing WithSecure logs`
+- **Rules**: `Contains XML rule files for alerting on WithSecure events`
 - **Scripts**:
   - `scripts/withsecure_logs.py`: Main script for collecting logs from WithSecure API
   - `scripts/generate_test_event.py`: Script for generating test events
+- **Demo logs**: `Sample log files for testing decoders and rules`
+
+## Demo Logs
+The `Demo logs/` directory contains sample logs that simulate real WithSecure alerts:
+
+### withsecure_events.log
+Basic WithSecure security alerts including:
+- Malware detection and blocking
+- Ransomware prevention events
+- Suspicious behavior monitoring
+- Application control logs
+
+### withsecure_apt_detections.log
+Advanced APT (Advanced Persistent Threat) detection logs including:
+
+- **SANDWORM**: Targeted email attachment with ELECTRUM payload, attributed to Russian state actors targeting industrial systems
+- **GALLIUM**: Webshell detected in IIS web application, Chinese state actor targeting telecommunications
+- **APT10/MENUPASS**: Credential dumping attempt using PlugX variant, attributed to Chinese threat actors
+- **KIMSUKY**: Command & Control communication to malicious domain from developer workstation, North Korean actor
+- **HAFNIUM**: Data exfiltration attempt from database server using China Chopper webshell
+- **CARBON SPIDER**: DARKSIDE ransomware deployment attempt through PowerShell, financially motivated threat group
+
+Each log entry includes enriched data such as:
+- Actions taken (blocked, quarantined)
+- Alert types and severity
+- Device and organization information
+- Process details and file paths
+- Malware identification
+- MITRE ATT&CK technique references
+- Attack stage information
+- Threat actor attribution
+- Campaign identification
+- Confidence scores
+
+## Usage
+1. Deploy the decoders to your Wazuh installation
+2. Deploy the corresponding rules
+3. Configure WithSecure to forward logs to Wazuh
+4. Test using the provided demo logs
+
+## Log Format
+WithSecure logs follow this general format:
+
+```
+timestamp hostname withsecure-collector[process_id]: key="value" key="value"...
+```
+
+The decoders in this directory are designed to parse these formats and extract relevant fields for rule matching.
 
 ## Installation
 
