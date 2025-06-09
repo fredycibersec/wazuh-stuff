@@ -1,13 +1,62 @@
 # Microsoft Defender Integration for Wazuh
 
 ## Overview
+This directory contains decoders, rules, and demo logs for integrating Microsoft Defender security events into Wazuh SIEM. Microsoft Defender provides endpoint protection against malware, viruses, and other threats.
 
-This integration enables Wazuh to monitor and alert on Microsoft Defender events, providing visibility into antivirus detections, status changes, and protection actions on Windows systems.
+## Directory Structure
+- `decoders/`: Contains XML decoder files for parsing Microsoft Defender logs
+- `rules/`: Contains XML rule files for alerting on Microsoft Defender events
+- `Demo logs/`: Sample log files for testing decoders and rules
 
-## Files Included
+## Demo Logs
+The `Demo logs/` directory contains sample logs that simulate real Microsoft Defender alerts:
 
-- **Decoders**: `decoders/ms_defender_decoders.xml`
-- **Rules**: `rules/ms_defender_rules.xml`
+### windows_defender.log
+Basic Microsoft Defender alerts including:
+- Malware detection events
+- Trojan detection and remediation
+- Status change notifications
+- Configuration change events
+
+### windows_defender_apt.log
+Advanced APT (Advanced Persistent Threat) detection logs including:
+
+- **SUNBURST Backdoor (NOBELIUM)**: Critical detection of SolarWinds supply chain compromise components
+- **Cobalt Strike Beacon (APT41)**: Backdoor with C2 communication patterns from Chinese state actors
+- **APT29 DropBox**: Spearphishing attachment targeting HR personnel
+- **HAFNIUM WebShell**: Exchange server web shell deployed by Chinese state-sponsored group
+- **Lazarus RAT**: Remote Access Trojan attributed to North Korean threat actors
+
+Each log entry includes enriched data such as:
+- Severity and categorization
+- File paths and affected systems
+- Detection methods and origins
+- Actions taken (quarantined, blocked, etc.)
+- MITRE ATT&CK technique references
+- Threat actor attribution
+- Threat intelligence confidence scores
+
+## Usage
+1. Deploy the decoders to your Wazuh installation
+2. Deploy the corresponding rules
+3. Configure Windows systems to forward Microsoft Defender events to Wazuh
+4. Test using the provided demo logs
+
+## Log Format
+Microsoft Defender logs follow this general format:
+
+```
+Microsoft-Windows-Windows Defender/Operational: Log(EVENT_ID)
+Windows Defender: HOSTNAME: DOMAIN: HOSTNAME Windows Defender has detected malware
+Name: MALWARE_NAME
+ID: DETECTION_ID
+Severity: SEVERITY_LEVEL
+Category: CATEGORY
+Path: FILE_PATH
+...
+```
+
+The decoders in this directory are designed to parse these formats and extract relevant fields for rule matching.
 
 ## Installation
 
